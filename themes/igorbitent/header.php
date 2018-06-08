@@ -23,10 +23,7 @@
 				<div class="container">
 					<div class="site-branding">
 						<div class="logo">
-							<a href="http://localhost/inhabitent" rel="home">
-							<img src="./images/logos/inhabitent-logo-tent-white.svg" alt="Inhabitent Logo">
-								<h1 class="site-title">Inhabitent</h1>
-							</a>
+							<a href="http://localhost/inhabitent" rel="home"></a>
 						</div>
 					</div><!-- .site-branding -->
 					<nav id="site-navigation" class="main-navigation clearfix" role="navigation">

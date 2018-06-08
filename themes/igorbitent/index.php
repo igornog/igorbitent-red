@@ -14,19 +14,15 @@
 get_header(); ?>
 
 	<div class="image-home logo-home">
-		<h1>Igorbitent</h1>
 	</div>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 		<section class="hero-image">
 		</section>
-
-			<h1>inhabitent journal</h1>
 			<section class="inhabitent-journal">
 			
 			<?php/* Start the Loop */ ?>
-
 
 			<?php $args = array(
 				'posts_per_page'   => 3,

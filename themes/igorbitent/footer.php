@@ -46,7 +46,7 @@
 
 			<div class="footer-block-item">
 				<div class="text-logo">
-					<a href="http://tent.academy.red/" rel="home">
+					<a href="http://localhost:3000/inhabitent/" rel="home">
 						<img src="http://tent.academy.red/wp-content/themes/inhabitent/images/inhabitent-logo-text.svg" alt="Inhabitent logo">
 					</a>
 				</div>
