@@ -18,8 +18,9 @@ get_header(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-		<section class="hero-image">
-		</section>
+		<section class="home-hero">
+			<div class="big-logo"></div>
+         </section>
 			<section class="inhabitent-journal">
 			
 			<?php/* Start the Loop */ ?>

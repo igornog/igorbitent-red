@@ -12,7 +12,7 @@ const browserSync = require('browser-sync');
 
 gulp.task('sass', function() {
   return gulp
-    .src('style.css', { sourcemaps: true })
+    .src('sass/*.scss', { sourcemaps: true })
     .pipe(prettyError())
     .pipe(sass())
     .pipe(
