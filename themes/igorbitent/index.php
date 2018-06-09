@@ -1,74 +1,39 @@
 <?php
 /**
- * Template Name: Home
- */
-?>
-
-<?php
-/**
  * The main template file.
  *
  * @package RED_Starter_Theme
+ * 
  */
-
-get_header(); ?>
-
-	<div class="image-home logo-home">
-	</div>
+	get_header(); ?> <!-- Apppending header -->
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-		<section class="home-hero">
-			<div class="big-logo"></div>
-         </section>
-			<section class="inhabitent-journal">
-			
-			<?php/* Start the Loop */ ?>
 
-			<?php $args = array(
-				'posts_per_page'   => 3,
-				'category_name' => 'Journal',
+		<?php if ( have_posts() ) : ?>
 
-			);
-			$myposts = get_posts( $args );
-			?>
-			<?php if (count ($myposts) > 0) : ?>
-				<?php foreach ( $myposts as $post ) : setup_postdata($post); ?>
-					<?php get_template_part( 'template-parts/content' ); ?>
-					<!--?php the_content(); ?-->
-				<?php endforeach; ?>
-				<?php wp_reset_postdata(); ?>
-				<?php the_posts_navigation(); ?>
-			<?php else : ?>
-				<?php get_template_part( 'template-parts/content', 'none' ); ?>
-			<?php endif; ?>
-			</section>
+		<?php if ( is_home() && ! is_front_page() ) : ?>
+			<header>
+				<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+			</header>
+		<?php endif; ?>
 
-			<section class="latest-adventures">
-				<h1>latest adventures</h1>
-				<?php/* Start the Loop */ ?>
+	<?php /* Start the Loop */ ?>
+		
+		<?php while ( have_posts() ) : the_post(); ?>
 
+		<?php get_template_part( 'template-parts/content' ); ?>
 
-				<?php $args = array(
-					'category_name' => 'Adventures',
-					'posts_per_page'   => 4,
-				);
-				$myposts = get_posts( $args );
-				?>
-				<?php if (count ($myposts) > 0) : ?>
-					<?php foreach ( $myposts as $post ) : setup_postdata($post); ?>
-						<?php get_template_part( 'template-parts/content' ); ?>
-						<!--?php the_content(); ?-->
-					<?php endforeach; ?>
-					<?php wp_reset_postdata(); ?>
-					<?php the_posts_navigation(); ?>
-				<?php else : ?>
-					<?php get_template_part( 'template-parts/content', 'none' ); ?>
-				<?php endif; ?>
-			</section>
+		<?php endwhile; ?>
+		<?php the_posts_navigation(); ?>
 
+		<?php else : ?>
+		<?php get_template_part( 'template-parts/content', 'none' ); ?>
+		<?php endif; ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_footer(); ?>
+<?php get_sidebar(); ?><!-- Apppending sidebar -->
+
+<?php get_footer(); ?><!-- Apppending footer -->
