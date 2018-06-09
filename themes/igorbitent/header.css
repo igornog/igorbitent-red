@@ -19,91 +19,46 @@
   -webkit-box-pack: center;
           justify-content: center; }
 
-.home .home-hero img {
-  height: 275px;
-  width: 275px; }
+.home .content-area, .page-template-page-about .content-area {
+  padding-left: 0; }
 
-.home.admin-bar .home-hero {
-  height: calc(100vh - 46px); }
+.home .advbtn {
+  background: transparent;
+  color: #fff;
+  border: 1px solid white; }
 
-.site-header {
-  background-color: rgba(255, 255, 255, 0.85);
-  border-bottom: 1px solid #e1e1e1;
-  padding: .5rem 0;
-  position: fixed;
-  -webkit-transition: top .5s linear;
-  transition: top .5s linear;
+.home .advreadmore {
+  padding-top: 1rem;
+  padding-bottom: 3rem; }
+  .home .advreadmore .moreadventures {
+    background: #248A83;
+    padding-bottom: 1rem;
+    border: none;
+    color: #fff; }
+
+.home h2 {
+  text-transform: uppercase; }
+
+.home .content-area {
   width: 100%;
-  z-index: 3; }
+  padding-right: 0; }
 
-.site-header .container {
-  -ms-flex-align: center;
-  -webkit-box-align: center;
-          align-items: center;
-  display: -ms-flexbox;
-  display: -webkit-box;
-  display: flex;
-  -ms-flex-pack: justify;
-  -webkit-box-pack: justify;
-          justify-content: space-between; }
-
-.site-header h1 {
-  background-color: black;
-  background-size: 50px 33px;
-  height: 33px;
-  margin: 0;
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-  width: 50px; }
-
-.site-header.reverse-header {
-  background-color: transparent;
-  border-bottom: 0;
-  position: absolute;
-  text-shadow: 1px 1px 2px #323232; }
-
-.site-header.reverse-header h1 {
-  background-color: black;
-  background-size: 70px 60px; }
-
-.site-header.reverse-header .main-navigation a {
-  color: #fff; }
-
-.site-header.reverse-header .main-navigation a:hover {
-  color: #f0e4d1; }
-
-.site-header.reverse-header .header-search input[type=search] {
-  color: #fff; }
-
-.site-header.reverse-header .header-search input[type=search]::-webkit-input-placeholder {
-  color: #f0e4d1 !important; }
-
-.big-logo {
-  width: 300px;
-  height: 300px;
-  background-color: black; }
-
-.site-navigation {
-  text-align: -webkit-right; }
-
-fieldset {
-  border: none;
-  width: 200px;
-  border-image-slice: 0%; }
-
-#primary-menu {
-  margin-left: 75%; }
-
-.menu-main-navigation-container ul li {
-  margin-left: 15px; }
-
-#masthead {
+.home .site-main .hero-banner {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../../images/home-hero.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/home-hero.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover,cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: column-reverse;
-          flex-direction: column-reverse;
-  max-width: 1400px; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.home .site-main h2 {
+  font-family: "Novecento", Sans-Serif;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }

@@ -1,9 +1,9 @@
 /*!
-Theme Name: Igorbitent
+Theme Name: Inhabitent
 Theme URI: http://underscores.me/
-Author: Igor Nogueira
-Author URI: http://localhost:3306/inhabitent/
-Description: A RED Academy project.
+Author: Tony Tran
+Author URI: http://localhost:8888/inhabitent/
+Description: A WordPress starter theme for RED Academy students.
 Version: 1.0.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -276,7 +276,7 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: "Merriweather";
+  font-family: "Novecento";
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
@@ -287,16 +287,16 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Copy */
 p {
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1rem; }
 
 dfn, cite, em, i {
   font-style: italic; }
 
 blockquote {
-  margin: 0 1.5rem; }
+  margin: 0 1rem; }
 
 address {
-  margin: 0 0 1.5rem; }
+  margin: 0 0 1rem; }
 
 pre {
   background: #eee;
@@ -354,10 +354,10 @@ hr {
   background-color: #ccc;
   border: 0;
   height: 1px;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1rem; }
 
 ul, ol {
-  margin: 0 0 1.5rem 3rem; }
+  margin: 0 0 1rem 2rem; }
 
 ul {
   list-style: disc; }
@@ -368,13 +368,13 @@ ol {
 li > ul,
 li > ol {
   margin-bottom: 0;
-  margin-left: 1.5rem; }
+  margin-left: 1rem; }
 
 dt {
   font-weight: bold; }
 
 dd {
-  margin: 0 1.5rem 1.5rem; }
+  margin: 0 1rem 1rem; }
 
 img {
   height: auto;
@@ -383,7 +383,7 @@ img {
   /* Adhere to container width. */ }
 
 table {
-  margin: 0 0 1.5rem;
+  margin: 0 0 1rem;
   width: 100%; }
 
 /*--------------------------------------------------------------
@@ -558,7 +558,7 @@ a {
               box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
       float: left;
       position: absolute;
-      top: 1.5rem;
+      top: 1rem;
       left: -999rem;
       z-index: 99999; }
       .main-navigation ul ul ul {
@@ -598,7 +598,7 @@ a {
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
 .post-navigation {
-  margin: 0 0 1.5rem;
+  margin: 0 0 1rem;
   overflow: hidden; }
 
 .comment-navigation .nav-previous,
@@ -651,12 +651,12 @@ a {
 .alignleft {
   display: inline;
   float: left;
-  margin-right: 1.5rem; }
+  margin-right: 1rem; }
 
 .alignright {
   display: inline;
   float: right;
-  margin-left: 1.5rem; }
+  margin-left: 1rem; }
 
 .aligncenter {
   clear: both;
@@ -676,7 +676,7 @@ a {
 # Widgets
 --------------------------------------------------------------*/
 .widget {
-  margin: 0 0 1.5rem;
+  margin: 0 0 1rem;
   /* Make sure select elements fit in widgets. */ }
   .widget select {
     max-width: 100%; }
@@ -794,7 +794,7 @@ a {
   padding: 0.5rem; }
 
 .hentry {
-  margin: 0 0 1.5rem; }
+  margin: 0 0 1rem; }
 
 .updated:not(.published) {
   display: none; }
@@ -806,11 +806,11 @@ a {
 .page-content,
 .entry-content,
 .entry-summary {
-  margin: 1.5rem 0 0; }
+  margin: 1rem 0 0; }
 
 .page-links {
   clear: both;
-  margin: 0 0 1.5rem; }
+  margin: 0 0 1rem; }
 
 /* Asides */
 .blog .format-aside .entry-title,
@@ -843,7 +843,7 @@ object {
 
 /* Captions */
 .wp-caption {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   max-width: 100%; }
   .wp-caption img[class*="wp-image-"] {
     display: block;
@@ -857,7 +857,7 @@ object {
 
 /* Galleries*/
 .gallery {
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1rem; }
 
 .gallery-item {
   display: inline-block;
@@ -1438,64 +1438,133 @@ a:visited {
 .page-template-default h1 {
   font-family: "Novecento", Sans-Serif; }
 
-/*  FOOTER */
-.site-footer {
-  background: url("../../images/dark-wood.png");
-  background-size: 512px 512px;
-  color: #fff; }
+.home .adventures, .home .home-hero, .home .latest-entries, .home .product-info {
+  margin-bottom: 4.5rem; }
 
-.footer-info-container {
+.home .home-hero {
+  -ms-flex-align: center;
+  -webkit-box-align: center;
+          align-items: center;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), #969696 url(../../images/home-hero.jpg) no-repeat top;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0, rgba(0, 0, 0, 0.4)), #969696 url(../../images/home-hero.jpg) no-repeat top;
+  background-size: cover,cover;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+          justify-content: center; }
+
+.home .content-area, .page-template-page-about .content-area {
+  padding-left: 0; }
+
+.home .advbtn {
+  background: transparent;
+  color: #fff;
+  border: 1px solid white; }
+
+.home .advreadmore {
+  padding-top: 1rem;
+  padding-bottom: 3rem; }
+  .home .advreadmore .moreadventures {
+    background: #248A83;
+    padding-bottom: 1rem;
+    border: none;
+    color: #fff; }
+
+.home h2 {
+  text-transform: uppercase; }
+
+.home .content-area {
+  width: 100%;
+  padding-right: 0; }
+
+.home .site-main .hero-banner {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../../images/home-hero.jpg");
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/home-hero.jpg");
+  width: 100%;
+  height: 100vh;
+  background-size: cover,cover;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  height: 300px;
-  width: 1120px;
-  background-size: cover;
-  padding-top: 1.5rem;
-  margin-left: 10rem; }
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
-.footer-text {
-  color: #d99054; }
-  .footer-text h3 {
-    font-family: "Novecento", Sans-Serif; }
+.home .site-main h2 {
+  font-family: "Novecento", Sans-Serif;
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
 
-.footer-text p {
-  color: #fff; }
+.site-footer {
+  background: url(../../images/dark-wood.png);
+  background-size: 512px 512px;
+  color: #fff;
+  width: -webkit-fill-available; }
 
-.text-logo {
-  margin-top: 1rem;
-  text-align: right; }
-
-.text-logo img {
-  max-width: 100%; }
-
-.date-bold {
-  font-weight: bold; }
-
-.footer-text a {
+.site-footer a {
   color: #fff;
   text-decoration: none; }
 
-.footer-text h3 {
+.site-footer a:hover {
+  text-decoration: underline; }
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (-webkit-min-device-pixel-ratio: 1.25), only screen and (min-device-pixel-ratio: 1.3), only screen and (min-resolution: 120dpi) {
+  .site-footer {
+    background: url(../../images/dark-wood@2x.png);
+    background-size: 512px 512px;
+    width: -webkit-fill-available; } }
+
+.footer-blocks {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex; }
+
+.footer-blocks h3 {
   color: #d99054;
   font-size: 19.2px;
   font-size: 1.2rem;
   margin-bottom: .75rem;
   text-transform: uppercase; }
 
-.text-logo a img {
-  width: 250px; }
+.footer-blocks p {
+  margin-bottom: .5rem; }
 
-.social-media-icons {
-  font-size: 1.5rem; }
+.footer-blocks i {
+  font-size: 20px;
+  font-size: 1.25rem;
+  margin-right: .5rem; }
 
-.copyright {
-  font-family: "Novecento", Sans-Serif;
+.footer-blocks .day-of-week {
+  font-weight: 700; }
+
+.footer-block-item {
+  margin: 3rem 0;
+  padding-right: 1.5rem;
+  width: 25%; }
+
+.footer-block-item:last-child {
+  padding-right: 0;
+  width: 50%; }
+
+.footer-block-item .text-logo {
+  margin-top: 1rem;
+  text-align: right; }
+
+.footer-block-item .text-logo img {
+  max-width: 50%; }
+
+.site-info {
+  font-family: Novecento Sans Web,sans-serif;
+  padding: 1.5rem 0;
   text-align: center;
-  padding-bottom: 1.5rem;
-  color: #fff;
   text-transform: uppercase; }
 
 .page-id-35 div#content.site-content {
