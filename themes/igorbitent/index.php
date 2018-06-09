@@ -5,7 +5,7 @@
  * @package RED_Starter_Theme
  * 
  */
-	get_header(); ?> <!-- Apppending header -->
+	get_header(); ?> <!-- Append header -->
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -34,6 +34,5 @@
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?><!-- Apppending sidebar -->
-
-<?php get_footer(); ?><!-- Apppending footer -->
+	<?php get_sidebar(); ?><!-- Append sidebar -->
+	<?php get_footer(); ?><!-- Append footer -->
