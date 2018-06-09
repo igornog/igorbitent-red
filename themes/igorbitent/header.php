@@ -1,18 +1,17 @@
 <?php
 /**
- * The header for our theme.
  *
  * @package RED_Starter_Theme
  */
 ?>
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<html>
 	<head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 		
 	<?php wp_head(); ?>
 	</head>

@@ -720,6 +720,9 @@ a {
   margin-left: auto;
   margin-right: auto; }
 
+#primary {
+  margin-top: 75px; }
+
 .content-area {
   width: 75%;
   padding-right: 5%; }
@@ -1439,7 +1442,10 @@ a:visited {
   font-family: "Novecento", Sans-Serif; }
 
 .home .adventures, .home .home-hero, .home .latest-entries, .home .product-info {
-  margin-bottom: 4.5rem; }
+  margin-bottom: 4rem; }
+
+.logo {
+  margin-top: 5px; }
 
 .home .home-hero {
   -ms-flex-align: center;

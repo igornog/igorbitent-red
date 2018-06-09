@@ -56,7 +56,7 @@ Template name: home
 
         <?php /* Loop Journal */?>
 			<div class="max-contain">
-			<h2>inhabitant journal</h2>
+			<h2>Inhabitent Journal</h2>
 			<?php
 			$args = array( 'numberposts' => '3', 'order' => 'ASC');
 			$product_posts = get_posts( $args );
@@ -68,7 +68,7 @@ Template name: home
 				<article class="journal-entry">
 				<?php the_post_thumbnail( 'medium' ); ?>
                     <div class="journal-info">
-                        <a href="<?php the_permalink(); ?>" class="read-more">Read Entry</a>
+                        <a href="<?php the_permalink(); ?>" class="read-more">Read More</a>
                         <?php the_title( sprintf( '<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );?>
                         <div class="journal-date">
                                     <?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?>
@@ -82,7 +82,7 @@ Template name: home
 
         <?php /* 	Adventure loop */ ?>
             <div class="max-contain">
-            <h2>latest adventures</h2>
+            <h2>Latest Adventures</h2>
             <?php	$args = array( 'posts_per_page' => 4, 'post_type' => 'adventure'  );
                 $adventure_posts = get_posts($args);?>
             <section class="adventures-wrapper">
