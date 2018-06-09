@@ -1,0 +1,50 @@
+//Footer
+.page-id-38 {
+
+  
+  h1.entry-title {   
+    margin: 5rem 0 3rem 6rem;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: bold;    
+  }
+  h2{
+    clear: both;
+    font-family: $headfont;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+
+  .hfeed .site-header .header-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .content-area{
+    width:75%;
+    padding-left:10%;
+  }
+
+  label {
+    color: #2f1339;
+    font-family: $headfont;
+    font-size: 17.6px;
+    font-size: 1.1rem;
+    margin-bottom: .5rem;
+    text-transform: uppercase;
+}
+  input[type=text],input[type=email]{
+    color: #666;
+    background-color: #f4f4f4;
+    border: 1px solid #e1e1e1;
+    border-radius: 0;
+  }
+  textarea {
+    color: #666;
+    background-color: #f4f4f4;
+    border: 1px solid #e1e1e1;
+    border-radius: 0;
+}
+}

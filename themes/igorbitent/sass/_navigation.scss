@@ -8,7 +8,7 @@ a {
 	color: $color__link;
 
 	&:visited {
-		color: $color__link-visited;
+		color: $color_black;
 	}
 	&:hover,
 	&:focus,
@@ -24,19 +24,57 @@ a {
 	}
 }
 
-/* Menus */
+.search-bar-nav{
+	display:flex;
+	
+	.fa{
+		color:$green;
+		padding-top:7px;
+	}
+}
+.hfeed{	
+	.site-header{
+		background-color: hsla(0,0%,100%,.85);
+    border-bottom: 1px solid #e1e1e1;
+    padding: .5rem 0;
+    position: fixed;
+    transition: top .5s linear;
+    width: 100%;
+		z-index: 3;
+		
+			.header-container{
+				display: flex;
+				justify-content: space-between;
+				padding-left:5%;
+				padding-right:5%;
+				font-family:$headfont;
+			}
+			
+			.site-branding{
+				a img{
+				height:35px;
+			}	
+		}
+	}
+}
 
 .main-navigation {
-	clear: both;
-	display: block;
-	float: left;
-	width: 100%;
-
+	display: flex;
+  align-items: center;
+	.menu-main-menu-container{
+		text-transform:uppercase;
+	}
 	ul {
 		display: none;
 		list-style: none;
 		margin: 0;
 		padding-left: 0;
+		li{
+			a {
+				color:$green;
+				text-transform:uppercase;
+			}
+		}
 
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -45,6 +83,7 @@ a {
 			top: $base__space-unit;
 			left: -999rem;
 			z-index: 99999;
+			
 
 			ul {
 				left: -999rem;
@@ -79,6 +118,7 @@ a {
 	li {
 		float: left;
 		position: relative;
+		padding-right: 1rem;
 
 		&:hover > a,
 		&.focus > a {
@@ -99,6 +139,11 @@ a {
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
+}
+
+.fa-search:before{
+	position: absolute;
+	margin-top: -0.9rem;
 }
 
 @media screen and (min-width: 768px) {

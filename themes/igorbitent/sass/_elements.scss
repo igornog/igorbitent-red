@@ -14,10 +14,7 @@ html {
 }
 
 body {
-	background: $color__background-body;
-	display: flex;
-    flex-direction: column;
-	align-items: center;
+	background: $color__background-body; /* Fallback for when there is no custom background color defined. */
 }
 
 blockquote, q {
