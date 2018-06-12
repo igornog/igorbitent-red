@@ -2,7 +2,8 @@
   background: url(../../images/dark-wood.png);
   background-size: 512px 512px;
   color: #fff;
-  width: -webkit-fill-available; }
+  width: -webkit-fill-available;
+  padding: 0 50px; }
 
 .site-footer a {
   color: #fff;
@@ -61,3 +62,8 @@
   padding: 1.5rem 0;
   text-align: center;
   text-transform: uppercase; }
+
+.widget-area{
+  padding-top: 0px;
+  width: 100%;
+}
