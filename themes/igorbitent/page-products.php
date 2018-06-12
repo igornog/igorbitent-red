@@ -13,28 +13,65 @@
 
 get_header(); ?>
 
-    <?php echo CFS()->get( 'price' ); 
-    echo "<p>Price : ${$price}</p>";
-    ?>
-
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
-		<?php while ( have_posts() ) : the_post(); ?>
+		<?php if ( have_posts() ) : ?>
 
-			<?php get_template_part( 'template-parts/content', 'single' ); ?>
-
-			<?php the_post_navigation(); ?>
+			<header class="page-header">
+			<h1 class="page-title">shop stuff</h1>
 
 			<?php
-				// If comments are open or we have at least one comment, load up the comment template.
-				if ( comments_open() || get_comments_number() ) :
-					comments_template();
-				endif;
+				$terms = get_terms( array(
+						'taxonomy' => 'product-type',
+						'hide_empty' => 0,
+				) );
+				// if ( ! empty( $terms ) && ! is_wp_error( $terms ) ) :
 			?>
+				<div class="shop-category-wrapper">
+					<div class="shop-category">
+					<?php foreach ( $terms as $term ) : ?>
+						<p><a href="<?php echo get_term_link( $term ); ?>"><?php echo $term->name; ?></a></p>
+					<?php endforeach; ?>
+					</div>
+        </div>
+        
+       
 
-		<?php endwhile; // End of the loop. ?>
-
+			<?php endif; ?>
+      </header>
+      
+      <div class = "archive-product-content">
+               <?php
+                   $args = array(
+                       'post_type' => 'product',
+                       'posts_per_page' => -1,
+                       'orderby'=> 'title',
+                       'order' => 'ASC',
+                   );
+                   $products = new WP_Query( $args );
+               ?>
+                   <?php if ( $products->have_posts() ) : ?>
+                       <?php while ( $products->have_posts() ) : $products->the_post(); ?>
+                       <div class="product-post">
+                       <?php if ( has_post_thumbnail() ) : ?>
+						<a href="<?php echo get_the_permalink(); ?>">
+							<?php the_post_thumbnail( 'large' ); ?>
+						</a>
+					<?php endif; ?>
+                           <div class="item-grid">
+                               <span class="product-text-info"><?php the_title(); ?></span>
+                               <span class = "aligncenter">&nbsp;</span>
+                               <span class="product-text-info"><?php echo "" . CFS()->get('price'); ?></span>
+                               <span class="dots">.............................</span>
+                           </div>
+                       </div>
+                   <?php endwhile; ?>
+                   <?php wp_reset_postdata(); ?>
+               <?php else : ?>
+                   <h2>Nothing found!</h2>
+               <?php endif; ?>
+           </div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
