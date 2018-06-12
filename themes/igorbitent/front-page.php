@@ -1,8 +1,5 @@
 <?php 
 /*
-Template name: home
-*/
-/**
  *front page (home page) template file.
  *
  * @package RED_Starter_Theme
