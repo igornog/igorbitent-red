@@ -20,7 +20,7 @@ get_header(); ?>
             <?php endif; ?>
             <?php the_title( sprintf( '<h3 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h3>' ); ?>
             <div class="read-more-wrapper">
-              <a href="<?php the_permalink(); ?>"class="advbtn read-more">read more →</a>
+              <a href="<?php the_permalink(); ?>"class="advbtn read-more read-more-adv">read more →</a>
             </div>
           </header><!-- .entry-header -->
         </article><!-- #post-## -->

@@ -6,6 +6,7 @@
  *
  * @package RED_Starter_Theme
  */
+
 if ( ! function_exists( 'red_starter_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -32,6 +33,7 @@ function red_starter_setup() {
 }
 endif; // red_starter_setup
 add_action( 'after_setup_theme', 'red_starter_setup' );
+
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
@@ -90,6 +92,7 @@ function red_starter_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'red_starter_scripts' );
 // add_action('init', 'include_jQuery');
+
 /**
  * Custom template tags for this theme.
  */

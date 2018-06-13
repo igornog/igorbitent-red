@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Shop
+ * Template Name: Page-Products
  */
 ?>
 
@@ -13,13 +13,14 @@
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<div id="primary" class="content-area content-area-shop">
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
 
-			<header class="page-header">
-			<h1 class="page-title">shop stuff</h1>
+			<header class="page-header page-header-shop">
+			
+            <spam><h1 class="page-title">SHOP STUFF</h1></spam>
 
 			<?php
 				$terms = get_terms( array(
