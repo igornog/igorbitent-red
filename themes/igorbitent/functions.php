@@ -1,12 +1,11 @@
 <?php
 /**
- * RED Starter Theme functions and definitions.
+ * Inhabitent functions and definitions.
  *
  * @link https://developer.wordpress.org/themes/basics/theme-functions/
  *
  * @package RED_Starter_Theme
  */
-
 if ( ! function_exists( 'red_starter_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
@@ -14,18 +13,14 @@ if ( ! function_exists( 'red_starter_setup' ) ) :
 function red_starter_setup() {
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
-
 	// Let WordPress manage the document title.
 	add_theme_support( 'title-tag' );
-
 	// Enable support for Post Thumbnails on posts and pages.
 	add_theme_support( 'post-thumbnails' );
-
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => esc_html( 'Primary Menu' ),
 	) );
-
 	// Switch search form, comment form, and comments to output valid HTML5.
 	add_theme_support( 'html5', array(
 		'search-form',
@@ -34,11 +29,9 @@ function red_starter_setup() {
 		'gallery',
 		'caption',
 	) );
-
 }
 endif; // red_starter_setup
 add_action( 'after_setup_theme', 'red_starter_setup' );
-
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
  *
@@ -48,7 +41,6 @@ function red_starter_content_width() {
 	$GLOBALS['content_width'] = apply_filters( 'red_starter_content_width', 640 );
 }
 add_action( 'after_setup_theme', 'red_starter_content_width', 0 );
-
 /**
  * Register widget area.
  *
@@ -66,7 +58,6 @@ function red_starter_widgets_init() {
 	) );
 }
 add_action( 'widgets_init', 'red_starter_widgets_init' );
-
 /**
  * Filter the stylesheet_uri to output the minified CSS file.
  */
@@ -74,57 +65,39 @@ function red_starter_minified_css( $stylesheet_uri, $stylesheet_dir_uri ) {
 	if ( file_exists( get_template_directory() . '/build/css/style.min.css' ) ) {
 		$stylesheet_uri = $stylesheet_dir_uri . '/build/css/style.min.css';
 	}
-
 	return $stylesheet_uri;
 }
 add_filter( 'stylesheet_uri', 'red_starter_minified_css', 10, 2 );
-
-function red_scripts() {
-	$script_url = get_template_directory_uri() . '/scripts.js';
-	wp_enqueue_script( 'jquery' );
-	wp_enqueue_script( 'red_comments', $script_url, array( 'jquery' ), false, true );
-   
-	wp_localize_script( 'red_comments', 'red_vars', array(
-	   'rest_url' => esc_url_raw( rest_url() ),
-	   'wpapi_nonce' => wp_create_nonce( 'wp_rest' ),
-	   'post_id' => get_the_ID()
-   ) );
- }
- add_action( 'wp_enqueue_scripts', 'red_scripts' );
-
-
- function red_comment_ajax() {
-	check_ajax_referer( 'red_comment_status', 'security' );
-	if ( ! current_user_can( 'edit_posts' ) ) {
-	   exit;
-	}
-	$id = $_POST['the_post_id'];
-	if ( isset( $id ) && is_numeric( $id ) ) {
-	   $the_post = array(
-		  'ID' => $id,
-		  'comment_status' => 'closed'
-	   );
-
-	   wp_update_post( $the_post );
-	}
-	exit;
- }
- add_action( 'wp_ajax_red_comment_ajax', 'red_comment_ajax' );
- // add_action( 'wp_ajax_nopriv_red_comment_ajax', 'red_comment_ajax' );
-
 /**
-
+ * Enqueue scripts and styles.
+ */
+function red_starter_scripts() {
+	wp_enqueue_style( 'red-starter-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'tent-style', get_stylesheet_uri() );
+	
+	wp_enqueue_script('jquery');
+	wp_enqueue_script('search', get_template_directory_uri() . '/js/search.js');
+	
+	
+	
+	wp_enqueue_script( 'red-starter-skip-link-focus-fix', get_template_directory_uri() . '/build/js/skip-link-focus-fix.min.js', array(), '20130115', true );
+	wp_enqueue_style('font-awesome','https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+	wp_enqueue_style('merriweather','https://fonts.googleapis.com/css?family=Merriweather');
+    
+	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
+		wp_enqueue_script( 'comment-reply' );
+	}
+}
+add_action( 'wp_enqueue_scripts', 'red_starter_scripts' );
+// add_action('init', 'include_jQuery');
+/**
  * Custom template tags for this theme.
  */
-require get_template_directory() . '/inc/template-tags.php';					
-
-/**
+require get_template_directory() . '/inc/template-tags.php';
+/** 
  * Custom functions that act independently of the theme templates.
  */
 require get_template_directory() . '/inc/extras.php';
-
-/**
- * Load all the scripts
- */
-
-require get_template_directory() . '/inc/enqueues.php';
+/**load all the scripts */
+// require get_template_directory() . '/inc/enqueue.php';
+// require get_template_directory() . '/inc/sidebar.php';
