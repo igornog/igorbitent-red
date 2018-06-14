@@ -1627,45 +1627,7 @@ a:visited {
   padding-top: 0px;
   width: 100%; }
 
-.entry-header {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-flow: row wrap;
-          flex-flow: row wrap;
-  text-align: center;
-  width: 100vw;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center; }
-  .entry-header .entry-title {
-    margin-bottom: 600px;
-    font-family: "Novecento", Sans-Serif;
-    text-transform: uppercase;
-    font-size: 32px;
-    color: black;
-    margin-top: 22px;
-    z-index: 1; }
-
-.site-main .about-banner {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../../images/about-hero.jpg");
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/about-hero.jpg");
-  width: 142%;
-  height: 125vh;
-  background-size: cover, cover;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
-
-.page .content-area {
+.page .content-area-abt {
   padding-left: 0%; }
 
 .alignnone {

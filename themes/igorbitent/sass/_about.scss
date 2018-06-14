@@ -1,35 +1,35 @@
 
-	.entry-header{
-		display:flex;
-		flex-flow: row wrap;
-		text-align: center;
-		width:100vw;
-		justify-content: center;
-		align-items: center;
+// 	.entry-header{
+// 		display:flex;
+// 		flex-flow: row wrap;
+// 		text-align: center;
+// 		width:100vw;
+// 		justify-content: center;
+// 		align-items: center;
 		
 
-	.entry-title{
-		margin-bottom: 600px;
-		font-family:$headfont;
-		text-transform: uppercase;
-		font-size:32px;
-		color:black;
-		margin-top: 22px;
-		z-index: 1;			
-		}
-	}
+// 	.entry-title{
+// 		margin-bottom: 600px;
+// 		font-family:$headfont;
+// 		text-transform: uppercase;
+// 		font-size:32px;
+// 		color:black;
+// 		margin-top: 22px;
+// 		z-index: 1;			
+// 		}
+// 	}
 
-.site-main{
-	.about-banner{
-		background:linear-gradient(to bottom, rgba($color_black, 0.2), rgba($color_black, 0.2)), url("../../images/about-hero.jpg");
-			width:142%;
-			height:125vh;
-			background-size:cover, cover;
-			display: flex;
-			justify-content: center;
-	}
-}
-.page .content-area{
+// .site-main{
+// 	.about-banner{
+// 		background:linear-gradient(to bottom, rgba($color_black, 0.2), rgba($color_black, 0.2)), url("../../images/about-hero.jpg");
+// 			width:142%;
+// 			height:125vh;
+// 			background-size:cover, cover;
+// 			display: flex;
+// 			justify-content: center;
+// 	}
+// }
+.page .content-area-abt{
 	padding-left: 0%;
 }
 
