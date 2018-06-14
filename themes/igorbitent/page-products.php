@@ -14,7 +14,7 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area content-area-shop">
-		<main id="main" class="site-main" role="main">
+		<main id="main" class="site-main site-main-shop" role="main">
 
 		<?php if ( have_posts() ) : ?>
 

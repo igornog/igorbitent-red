@@ -587,7 +587,7 @@ a {
 
 .fa-search:before {
   position: absolute;
-  margin-top: -0.9rem; }
+  margin-top: -0.7rem; }
 
 @media screen and (min-width: 768px) {
   .menu-toggle {
@@ -721,7 +721,7 @@ a {
   margin-right: auto; }
 
 #primary {
-  margin-top: 75px; }
+  margin-top: 65px; }
 
 .content-area {
   width: 75%;
@@ -1731,6 +1731,21 @@ a:visited {
 
 .content-area {
   padding-bottom: 5rem; }
+
+.site-main-shop {
+  max-width: 1120px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: -webkit-center;
+  -ms-flex-item-align: center;
+      align-self: center;
+  margin-left: 150px; }
+
+.content-area-shop {
+  padding-left: 0%; }
 
 .shop-category-wrapper {
   display: -webkit-box;
