@@ -1627,50 +1627,30 @@ a:visited {
   padding-top: 0px;
   width: 100%; }
 
-.page-id-35 div#content.site-content {
-  margin-left: 0;
-  margin-right: 0; }
-  .page-id-35 div#content.site-content div#primary.content-area {
-    width: 100%;
-    padding-left: 0%; }
-  .page-id-35 div#content.site-content div#secondary.widget-area {
-    display: none; }
-
-.post-35 {
-  width: 100vw; }
-  .post-35 .entry-content {
-    width: 850px;
-    padding-bottom: 1rem;
-    margin-left: auto;
-    margin-right: auto; }
-    .post-35 .entry-content h2 {
-      font-family: "Novecento", Sans-Serif;
-      text-align: center;
-      font-size: 2.5rem; }
-  .post-35 .entry-header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-flow: row wrap;
-            flex-flow: row wrap;
-    text-align: center;
-    width: 100vw;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-    .post-35 .entry-header .entry-title {
-      font-family: "Novecento", Sans-Serif;
-      text-transform: uppercase;
-      font-size: 3rem;
-      margin-left: auto;
-      margin-right: auto;
-      color: #fff;
-      margin-top: 25rem; }
+.entry-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  text-align: center;
+  width: 100vw;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .entry-header .entry-title {
+    margin-bottom: 600px;
+    font-family: "Novecento", Sans-Serif;
+    text-transform: uppercase;
+    font-size: 32px;
+    color: black;
+    margin-top: 22px;
+    z-index: 1; }
 
 .site-main .about-banner {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../../images/about-hero.jpg");
@@ -1690,9 +1670,10 @@ a:visited {
 
 .alignnone {
   position: absolute;
-  top: 83px;
-  width: 100px;
-  margin-bottom: 600px; }
+  top: 100px;
+  width: auto;
+  margin-bottom: 600px;
+  left: 0px; }
 
 .site-main-abt {
   text-align: -webkit-center; }
@@ -1702,6 +1683,15 @@ a:visited {
   display: -ms-flexbox;
   display: flex;
   text-align: -webkit-center; }
+
+.entry-content-abt {
+  max-width: 1080px;
+  text-align: -webkit-center; }
+
+#post-11 {
+  max-width: 100%;
+  width: 100%;
+  text-align: -webkit-auto; }
 
 .page-header-shop {
   display: -webkit-box;

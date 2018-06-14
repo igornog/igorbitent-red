@@ -1,57 +1,23 @@
-.page-id-35{
-	div#content.site-content{
-		margin-left:0;
-		margin-right:0;
-	
-		div#primary.content-area{
-			width:100%;
-			padding-left:0%;
-		
-		}
-		div#secondary.widget-area{
-			display:none;
-		}
-		
-		
-	}	
-}
 
-.post-35{
-	width:100vw;
-	.entry-content{
-		width: 850px;
-		padding-bottom:1rem;
-		@include center();
-		
-		
-		h2{
-			font-family:$headfont;
-			text-align:center;
-			font-size:2.5rem;
-		}
-		
-	}
-	
 	.entry-header{
 		display:flex;
 		flex-flow: row wrap;
-	  text-align: center;
+		text-align: center;
 		width:100vw;
 		justify-content: center;
 		align-items: center;
 		
 
-		.entry-title{
-			font-family:$headfont;
-			text-transform: uppercase;
-			font-size:3rem;
-			@include center();
-			color:$main;
-			margin-top: 25rem;
+	.entry-title{
+		margin-bottom: 600px;
+		font-family:$headfont;
+		text-transform: uppercase;
+		font-size:32px;
+		color:black;
+		margin-top: 22px;
+		z-index: 1;			
 		}
-		
 	}
-}
 
 .site-main{
 	.about-banner{
@@ -69,9 +35,10 @@
 
 .alignnone{	
 	position: absolute;
-	top: 83px;
-	width: 100px;
-	margin-bottom: 600px;
+    top: 100px;
+    width: auto;
+    margin-bottom: 600px;
+    left: 0px;
 }
 
 
@@ -84,3 +51,13 @@
     text-align: -webkit-center;
 }
 
+.entry-content-abt{
+	max-width: 1080px;
+	text-align: -webkit-center;
+}
+
+#post-11 {
+	max-width: 100%;
+    width: 100%;
+    text-align: -webkit-auto;
+}
