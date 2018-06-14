@@ -1552,6 +1552,14 @@ a:visited {
   padding-top: 1rem;
   padding-bottom: 1rem; }
 
+.search-submit {
+  padding-left: 0px;
+  padding-right: 10px;
+  padding-top: 8px;
+  border-radius: 100px;
+  width: 50px;
+  height: 30px; }
+
 .site-footer {
   background: url(../../images/dark-wood.png);
   background-size: 512px 512px;
@@ -1680,6 +1688,21 @@ a:visited {
 .page .content-area {
   padding-left: 0%; }
 
+.alignnone {
+  position: absolute;
+  top: 83px;
+  width: 100px;
+  margin-bottom: 600px; }
+
+.site-main-abt {
+  text-align: -webkit-center; }
+
+.content-area-abt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: -webkit-center; }
+
 .page-header-shop {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1715,7 +1738,8 @@ a:visited {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5rem;
-  margin-bottom: 1.5rem; }
+  margin-bottom: 1.5rem;
+  margin-top: 5.5rem; }
 
 .item-grid {
   display: -webkit-box;
@@ -1777,7 +1801,7 @@ a:visited {
   .shop-category p a {
     text-decoration: none;
     color: green;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     text-transform: uppercase; }
 
 .single.single-adventure .entry-header {
