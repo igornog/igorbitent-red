@@ -343,7 +343,8 @@ html {
 
 body {
   background: #fff;
-  /* Fallback for when there is no custom background color defined. */ }
+  /* Fallback for when there is no custom background color defined. */
+  font-family: 'Merriweather'; }
 
 blockquote, q {
   quotes: "" ""; }
@@ -1803,9 +1804,10 @@ a:visited {
   width: 30%; }
   .shop-category p a {
     text-decoration: none;
-    color: green;
+    color: #248A83;
     font-size: 1.5rem;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    font-family: 'Novovento Sans Wide'; }
 
 /* Post styles */
 .journal .post {
