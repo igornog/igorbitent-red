@@ -386,6 +386,9 @@ table {
   margin: 0 0 1rem;
   width: 100%; }
 
+h1, h2 {
+  font-family: 'Novocento'; }
+
 /*--------------------------------------------------------------
 # Forms
 --------------------------------------------------------------*/
@@ -498,7 +501,7 @@ input {
 a {
   color: royalblue; }
   a:visited {
-    color: #000; }
+    color: white; }
   a:hover, a:focus, a:active {
     color: midnightblue; }
   a:focus {
@@ -869,6 +872,12 @@ a {
 
 a:visited {
   color: black; }
+
+.container:nth-child(3) {
+  height: 232.5px; }
+
+.container:nth-child(4) {
+  height: 232.5px; }
 
 /*--------------------------------------------------------------
 # Media
@@ -1628,7 +1637,8 @@ a:visited {
   width: 100%; }
 
 .page .content-area-abt {
-  padding-left: 0%; }
+  padding-left: 0%;
+  font-family: 'Merriweather'; }
 
 .alignnone {
   display: none; }
@@ -1670,7 +1680,16 @@ a:visited {
   height: 600px;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom; }
+  background-position: bottom;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
 .page-header-shop {
   display: -webkit-box;
@@ -1787,6 +1806,47 @@ a:visited {
     font-size: 1.5rem;
     text-transform: uppercase; }
 
+/* Post styles */
+.journal .post {
+  margin: 3rem 0; }
+  .journal .post .entry-header {
+    position: relative;
+    width: 100%;
+    min-height: 300px; }
+    .journal .post .entry-header img {
+      width: 100%; }
+    .journal .post .entry-header a {
+      display: inline;
+      text-decoration: none;
+      color: white; }
+      .journal .post .entry-header a:hover {
+        color: silver; }
+    .journal .post .entry-header .entry-title {
+      position: absolute;
+      top: 0;
+      left: 0;
+      background: green;
+      width: 65%;
+      color: white;
+      padding: 0 1.5rem;
+      font-size: 1.5rem; }
+    .journal .post .entry-header .entry-meta {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      background: green;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      color: white;
+      padding: 0 1.5rem; }
+  .journal .post .entry-footer a {
+    text-decoration: none; }
+  .journal .post .entry-footer span {
+    display: inline-block;
+    padding-right: 1.5rem; }
+  .journal .post .social-links {
+    padding-top: 1.5rem; }
+
 .single.single-adventure .entry-header {
   height: auto;
   width: 100vw;
@@ -1832,6 +1892,22 @@ a:visited {
 
 .read-more-adv {
   margin: 50px; }
+
+.adventures-wrapper .container:nth-child(3) .adventure-entry img {
+  height: 232px; }
+
+.adventures-wrapper .container:nth-child(4) .adventure-entry img {
+  height: 232px; }
+
+.adventure-read-more {
+  color: #fff;
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.75rem 1.5rem;
+  font-family: Novecento,Sans-Serif;
+  position: absolute;
+  top: 170px; }
 
 /* Adventure archive */
 .post-type-archive-adventure .site-main {

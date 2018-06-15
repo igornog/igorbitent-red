@@ -1,3 +1,9 @@
+<?php
+/**
+ * Template Name: Home
+ */
+?>
+
 <?php 
 /*
  *front page (home page) template file.

@@ -45,3 +45,24 @@
 .read-more-adv {
   margin: 50px;
 }
+
+.adventures-wrapper .container:nth-child(3) .adventure-entry img {
+  height: 232px;
+}
+
+.adventures-wrapper .container:nth-child(4) .adventure-entry img {
+  height: 232px;
+}
+
+.adventure-read-more {
+  color: #fff;
+    border: 1px solid #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    font-family: Novecento,Sans-Serif;
+    position: absolute;
+    top: 170px;
+
+}
+

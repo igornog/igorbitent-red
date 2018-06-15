@@ -1,5 +1,6 @@
 .page .content-area-abt{
-	padding-left: 0%;
+    padding-left: 0%;
+    font-family: 'Merriweather';
 }
 
 .alignnone{	
@@ -42,4 +43,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
