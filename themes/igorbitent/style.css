@@ -1631,20 +1631,16 @@ a:visited {
   padding-left: 0%; }
 
 .alignnone {
-  position: absolute;
-  top: 100px;
-  width: auto;
-  margin-bottom: 600px;
-  left: 0px; }
+  display: none; }
 
 .site-main-abt {
   text-align: -webkit-center; }
 
 .content-area-abt {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  text-align: -webkit-center; }
+  width: 100%;
+  height: auto;
+  text-align: -webkit-center;
+  padding: inherit; }
 
 .entry-content-abt {
   max-width: 1080px;
@@ -1654,6 +1650,9 @@ a:visited {
   max-width: 100%;
   width: 100%;
   text-align: -webkit-auto; }
+
+.hero-title {
+  color: white; }
 
 .page-header-shop {
   display: -webkit-box;
