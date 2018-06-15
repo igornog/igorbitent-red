@@ -8,7 +8,11 @@
 
 
 .site-main-abt{
-	text-align: -webkit-center;
+    text-align: -webkit-center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 
 .content-area-abt{
@@ -31,4 +35,11 @@
 
 .hero-title {
     color: white;
+}
+
+.hero-image {
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
 }

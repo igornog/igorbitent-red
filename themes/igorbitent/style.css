@@ -1634,7 +1634,19 @@ a:visited {
   display: none; }
 
 .site-main-abt {
-  text-align: -webkit-center; }
+  text-align: -webkit-center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center; }
 
 .content-area-abt {
   width: 100%;
@@ -1653,6 +1665,12 @@ a:visited {
 
 .hero-title {
   color: white; }
+
+.hero-image {
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom; }
 
 .page-header-shop {
   display: -webkit-box;
