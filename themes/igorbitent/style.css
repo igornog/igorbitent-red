@@ -1733,7 +1733,6 @@ a:visited {
   padding-bottom: 5rem; }
 
 .site-main-shop {
-  max-width: 1120px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -1742,7 +1741,7 @@ a:visited {
   text-align: -webkit-center;
   -ms-flex-item-align: center;
       align-self: center;
-  margin-left: 150px; }
+  margin-right: 75px; }
 
 .content-area-shop {
   padding-left: 0%; }
