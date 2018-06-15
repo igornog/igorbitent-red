@@ -387,7 +387,7 @@ table {
   margin: 0 0 1rem;
   width: 100%; }
 
-h1, h2 {
+h1, h2, h3 {
   font-family: 'Novovento Sans Wide';
   text-transform: uppercase; }
 
@@ -693,7 +693,9 @@ a {
   border-left: #eee solid 1px; }
 
 .widget-title {
-  font-family: "Novecento", Sans-Serif; }
+  font-family: 'Novovento Sans Wide';
+  text-transform: uppercase;
+  font-size: 18.72px; }
 
 /* Search widget. */
 .widget_search .search-submit {
@@ -729,8 +731,7 @@ a {
   margin-top: 65px; }
 
 .content-area {
-  width: 75%;
-  padding-right: 5%; }
+  width: 75%; }
 
 .archive .entry-title {
   position: absolute;
@@ -746,7 +747,7 @@ a {
     text-decoration: none; }
 
 .page .content-area, .single .content-area, .blog .content-area, .archive .content-area {
-  padding-left: 5%; }
+  padding-left: 1%; }
 
 .hfeed {
   display: -webkit-box;
@@ -1809,6 +1810,10 @@ a:visited {
     text-transform: uppercase;
     font-family: 'Novovento Sans Wide'; }
 
+.product-post a img {
+  max-height: 250px;
+  max-width: 367px; }
+
 /* Post styles */
 .journal .post {
   margin: 3rem 0; }
@@ -1977,19 +1982,19 @@ a:visited {
   margin-top: 24px;
   text-align: center; }
 
-.page-id-38 h1.entry-title {
+.post-15 h1.entry-title {
   margin: 5rem 0 3rem 6rem;
   text-transform: uppercase;
   font-size: 2.5rem;
   font-weight: bold; }
 
-.page-id-38 h2 {
+.post-15 h2 {
   clear: both;
   font-family: "Novecento", Sans-Serif;
   letter-spacing: 2px;
   text-transform: uppercase; }
 
-.page-id-38 .hfeed .site-header .header-container {
+.post-15 .hfeed .site-header .header-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1999,11 +2004,11 @@ a:visited {
   padding-left: 10%;
   padding-right: 10%; }
 
-.page-id-38 .content-area {
+.post-15 .content-area {
   width: 75%;
   padding-left: 10%; }
 
-.page-id-38 label {
+.post-15 label {
   color: #2f1339;
   font-family: "Novecento", Sans-Serif;
   font-size: 17.6px;
@@ -2011,13 +2016,13 @@ a:visited {
   margin-bottom: .5rem;
   text-transform: uppercase; }
 
-.page-id-38 input[type=text], .page-id-38 input[type=email] {
+.post-15 input[type=text], .post-15 input[type=email] {
   color: #666;
   background-color: #f4f4f4;
   border: 1px solid #e1e1e1;
   border-radius: 0; }
 
-.page-id-38 textarea {
+.post-15 textarea {
   color: #666;
   background-color: #f4f4f4;
   border: 1px solid #e1e1e1;
