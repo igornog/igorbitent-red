@@ -387,7 +387,14 @@ table {
   margin: 0 0 1rem;
   width: 100%; }
 
-h1, h2, h3 {
+h1, h3 {
+  font-family: 'Novovento Sans Wide';
+  text-transform: uppercase;
+  margin-top: 50px;
+  margin-bottom: 40px; }
+
+h2 {
+  text-align: center;
   font-family: 'Novovento Sans Wide';
   text-transform: uppercase;
   margin-top: 50px;
@@ -1596,6 +1603,9 @@ a:visited {
 .fa-search {
   color: #000; }
 
+#search-icon {
+  display: contents; }
+
 .site-footer {
   background: url(../../images/dark-wood.png);
   background-size: 512px 512px;
@@ -1703,8 +1713,8 @@ a:visited {
   padding: inherit; }
 
 .entry-content-abt {
-  max-width: 1080px;
-  text-align: -webkit-center; }
+  max-width: 800px;
+  text-align: -webkit-left; }
 
 #post-11 {
   max-width: 100%;
@@ -1889,7 +1899,7 @@ a:visited {
       position: absolute;
       top: 0;
       left: 0;
-      background: green;
+      background: #248A83;
       width: 65%;
       color: white;
       padding: 0 1.5rem;
@@ -1898,7 +1908,7 @@ a:visited {
       position: absolute;
       bottom: 0;
       right: 0;
-      background: green;
+      background: #248A83;
       margin-bottom: 8px;
       text-transform: uppercase;
       color: white;
@@ -1915,6 +1925,11 @@ a:visited {
   padding-left: 150px;
   padding-top: 50px;
   padding-right: 100px; }
+
+.journal-info .entry-title a {
+  color: #248a83;
+  font-weight: 600;
+  text-decoration: none; }
 
 .single.single-adventure .entry-header {
   height: auto;
@@ -2135,3 +2150,8 @@ iframe {
 .term-do .item-grid a img, .term-eat .item-grid a img, .term-sleep .item-grid a img, .term-wear .item-grid a img {
   border-bottom: 5px solid #e1e1e1;
   height: 200px; }
+
+.product-post span {
+  font-size: 14px;
+  font-family: Merriweather;
+  padding: 5px; }

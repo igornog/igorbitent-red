@@ -76,3 +76,6 @@
 
 .fa-search {
   color: #000; }
+
+#search-icon {
+  display: contents; }
