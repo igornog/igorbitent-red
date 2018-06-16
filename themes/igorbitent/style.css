@@ -630,8 +630,8 @@ a {
   text-align: right;
   width: 50%; }
 
-.search-submit-hideShow {
-  display: inline-block; }
+.search-icon {
+  display: content; }
 
 /*--------------------------------------------------------------
 # Accessibility
@@ -1347,38 +1347,34 @@ a:visited {
   white-space: nowrap; }
 
 /* single product page */
-.product-template-default .entry-title {
-  font-family: "Novecento", Sans-Serif;
-  color: #d99054;
-  text-transform: uppercase; }
-
-.product-template-default .content-area {
-  width: 100%;
-  padding-bottom: 6rem; }
-
-.product-template-default .type-product {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 8rem; }
-  .product-template-default .type-product div img {
+.product-template-default {
+  padding: 0%; }
+  .product-template-default .entry-title {
+    font-family: "Novecento", Sans-Serif;
+    color: #d99054;
+    text-transform: uppercase; }
+  .product-template-default .content-area {
+    width: 100%;
+    padding-bottom: 6rem; }
+  .product-template-default .type-product {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 8rem; }
+    .product-template-default .type-product div img {
+      -ms-flex-preferred-size: 50%;
+          flex-basis: 50%; }
+  .product-template-default .single-product-wrapper {
+    padding-left: 3rem;
     -ms-flex-preferred-size: 50%;
         flex-basis: 50%; }
-
-.product-template-default .single-product-wrapper {
-  padding-left: 3rem;
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%; }
-
-.product-template-default .entry-header img {
-  max-width: 500px;
-  height: 400px; }
-
-.product-template-default .entry-meta {
-  display: none; }
-
-.product-template-default .widget-area {
-  display: none; }
+  .product-template-default .entry-header img {
+    max-width: 500px;
+    height: 400px; }
+  .product-template-default .entry-meta {
+    display: none; }
+  .product-template-default .widget-area {
+    display: none; }
 
 .single-product-buttons {
   color: #000;
@@ -1735,7 +1731,8 @@ a:visited {
   text-align: center; }
 
 .shop-category-wrapper {
-  text-align: -webkit-center; }
+  text-align: -webkit-center;
+  border-color: #808080; }
 
 .shop-category {
   display: -webkit-box;
@@ -1772,18 +1769,18 @@ a:visited {
   background: white;
   z-index: 2; }
 
-.product-post {
-  border: 1px solid #808080; }
-  .product-post a {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex; }
-    .product-post a img {
-      max-height: 250px; }
+.product-post a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .product-post a img {
+    max-height: 250px; }
 
-.type-product a img {
-  border-bottom: 5px solid #808080;
-  height: 250px; }
+.type-product {
+  padding-top: 0rem; }
+  .type-product a img {
+    border-bottom: 5px solid #808080;
+    height: 250px; }
 
 .page-header {
   width: 100%;
@@ -1836,6 +1833,23 @@ a:visited {
 .product-post a img {
   max-height: 180px;
   max-width: 260px; }
+
+.product-template-default .type-product {
+  padding: 0%; }
+
+.content-area-product {
+  padding: 50px;
+  margin-left: 25px; }
+
+.entry-title-prod {
+  margin-top: 0%; }
+
+.product-post {
+  border: 1px solid #808080; }
+  .product-post span {
+    font-size: 1rem;
+    font-family: 'Merriweather';
+    padding: 5px; }
 
 /* Post styles */
 .journal .post {
@@ -2063,3 +2077,42 @@ iframe {
   border: 0;
   margin-left: 96px;
   margin-bottom: 50px; }
+
+.archive .page-header {
+  padding-top: 0rem; }
+
+.container-prodtype {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.item-grid {
+  padding: 0%; }
+  .item-grid img {
+    width: auto;
+    height: 100px; }
+
+.description-prod {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+  .description-prod p {
+    font-size: 14px; }
+
+.term-do .item-grid a img, .term-eat .item-grid a img, .term-sleep .item-grid a img, .term-wear .item-grid a img {
+  border-bottom: 5px solid #e1e1e1;
+  height: 200px; }

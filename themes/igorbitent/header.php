@@ -17,31 +17,36 @@
 	</head>
 	<body <?php body_class(); ?>>
 		<div id="page" class="hfeed site">
-			<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a>
-			<header id="masthead" class="site-header reverse-header" role="banner">
-			<div class="header-container">		
-				<div class="site-branding">
-					<h1 class="site-title screen-reader-text">
-					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?>
-					<div class="header-logo"></div>
-					</a>
-					</h1>
-	
-				<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-				<img src="<?php echo get_template_directory_uri() . '/images/logos/inhabitent-logo-tent.svg'; ?>" class="logo" alt="inhabitent logo" />
-				</a>
+		<a class="skip-link screen-reader-text" href="#content"><?php esc_html( 'Skip to content' ); ?></a>
+			<header id="masthead" class="site-header reverse-header" role="banner">		
+				<div class="header-container">		
+					<div class="site-branding">
+						<h1 class="site-title screen-reader-text">
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?>
 						
-				</div><!-- .site-branding -->
-					<div>
-					<nav id="site-navigation" class="main-navigation" role="navigation">
-						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
-					<div>
+						<div class="header-logo"></div>
+						</a>
+						</h1>
 				
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+						<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						<img src="<?php echo get_template_directory_uri() . '/images/logos/inhabitent-logo-tent.svg'; ?>" class="logo" alt="inhabitent logo" />
+						</a>
+					</div><!-- .site-branding -->
+				
+					<div>
+						<nav id="site-navigation" class="main-navigation" role="navigation">
+							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
+								<div>
+						
+								<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 
+								</div>
+								<div class="search-container"
+								
+								><?php get_search_form();?>
+								
+								</div>
+						</nav>
 					</div>
-					<div class="search-container"><?php get_search_form();?></div>
-					</nav>
-				</div>
-			</div>		
+				</div>		
 			</header>

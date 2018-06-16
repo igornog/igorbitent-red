@@ -2,6 +2,8 @@
 # Page Templates
 --------------------------------------------------------------*/
 
+@import 'variables';
+
 /* utility */
 
 .max-contain {
@@ -440,6 +442,7 @@ h1{
 }
 /* single product page */
 .product-template-default{
+  padding: 0%;
   .entry-title{
     font-family:$headfont;
     color:$orange;
