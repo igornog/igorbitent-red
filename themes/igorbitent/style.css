@@ -718,7 +718,8 @@ a {
 .widget-title {
   font-family: 'Novovento Sans Wide';
   text-transform: uppercase;
-  font-size: 18.72px; }
+  font-size: 18.72px;
+  text-align: left; }
 
 /* Search widget. */
 .widget_search .search-submit {
