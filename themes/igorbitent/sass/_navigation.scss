@@ -24,6 +24,10 @@ a {
 	}
 }
 
+.search-field{
+	display: none;
+}
+
 .search-bar-nav{
 	display:flex;
 	
@@ -176,4 +180,8 @@ a {
 		text-align: right;
 		width: 50%;
 	}
+}
+
+.search-submit-hideShow{
+	display: inline-block;;
 }

@@ -40,8 +40,8 @@
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
 
 					</div>
-						<div><?php get_search_form();?></div>
-						</nav>
-					</div>
-				</div>		
+					<div class="search-container"><?php get_search_form();?></div>
+					</nav>
+				</div>
+			</div>		
 			</header>
