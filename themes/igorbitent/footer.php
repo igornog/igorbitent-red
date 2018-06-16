@@ -59,12 +59,10 @@
 		</div>
 		<!-- .site-info -->
 	</footer>
+	
+	<?php wp_footer(); ?>
 
 	</div>
 	<!-- #page -->
-
-	<?php wp_footer(); ?>
-
 	</body>
-
-	</html>
+</html>

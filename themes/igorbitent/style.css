@@ -1855,6 +1855,11 @@ a:visited {
   .journal .post .social-links {
     padding-top: 1.5rem; }
 
+.category-journal {
+  padding-left: 150px;
+  padding-top: 50px;
+  padding-right: 100px; }
+
 .single.single-adventure .entry-header {
   height: auto;
   width: 100vw;
