@@ -36,13 +36,27 @@
 			</div>
 
 			<div class="footer-block-item">
-				<div class="business-hours">
-					<?php
-						get_sidebar();
-					?>
-				</div>
+				<aside id="inhabitent-business-hours-4" class="widget inhabitent-business-hours-class"><h3>Business Hours</h3>    <!-- This file is used to markup the public-facing widget. -->
+					<p>
+						<span class="day-of-the-week">
+							Monday to Friday:
+						</span>
+						9am to 5pm   
+					</p>
+					<p>
+						<span class="day-of-the-week">
+							Saturday:
+						</span>
+						10am to 2pm    
+					</p>
+					<p>
+						<span class="day-of-the-week">
+							Sunday:
+						</span>
+						Closed    
+					</p>
+				</aside>
 			</div>
-
 
 			<div class="footer-block-item">
 				<div class="text-logo">

@@ -709,12 +709,16 @@ a {
     text-decoration: none;
     color: #248A83; }
 
-.contact-meta a {
+.contact a {
   text-decoration: none;
   color: #248A83; }
 
 .textwidget .contact-meta .fa {
   padding-right: 0.5rem; }
+
+#secondary {
+  padding-top: 10%;
+  width: 40%; }
 
 /*--------------------------------------------------------------
 # Content
@@ -874,7 +878,7 @@ a {
   font-family: "Novecento", Sans-Serif; }
 
 a:visited {
-  color: black; }
+  color: white; }
 
 .container:nth-child(3) {
   height: 232.5px; }

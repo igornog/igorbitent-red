@@ -1,6 +1,7 @@
 /*--------------------------------------------------------------
 # Widgets
 --------------------------------------------------------------*/
+@import "variables";
 
 .widget {
 	margin: 0 0 $base__space-unit;
@@ -42,7 +43,7 @@
 	}
 }
 
-.contact-meta a{
+.contact a{
 	text-decoration: none;
 	color:$green;
 }
@@ -53,4 +54,9 @@
 			padding-right:0.5rem;
 		}
 	}
+}
+
+#secondary{
+	padding-top: 10%;
+    width: 40%;
 }
