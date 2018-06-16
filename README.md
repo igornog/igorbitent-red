@@ -10,3 +10,13 @@ The theme Igorbitent was exclusively created to reflect the exactly website mode
 
 The website is built with Wordpres, PHP, CSS(SASS), HTML, Gulp and Javascript(JQuery).
 
+# Knowledge adquired during the project:
+
+- Time management for a multi-page project
+
+- Plug-in use such as Custom Field Suite, Theme Check and others.
+
+- Widgets for WP
+
+- Custom Loops using tags, categories to filter content.
+
