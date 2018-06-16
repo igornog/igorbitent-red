@@ -103,10 +103,12 @@ a {
 
 			:hover > a,
 			.focus > a {
+				color: $color__link-hover;
 			}
 
 			a:hover,
 			a.focus {
+				color: $color__link-hover;
 			}
 		}
 
