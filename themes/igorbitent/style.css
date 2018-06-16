@@ -390,8 +390,8 @@ table {
 h1, h2, h3 {
   font-family: 'Novovento Sans Wide';
   text-transform: uppercase;
-  margin-top: 30px;
-  margin-bottom: 30px; }
+  margin-top: 50px;
+  margin-bottom: 40px; }
 
 /*--------------------------------------------------------------
 # Forms
@@ -562,7 +562,9 @@ a {
     padding-left: 0; }
     .main-navigation ul li a {
       color: #248A83;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      margin-right: 15px;
+      margin-top: 5px; }
     .main-navigation ul ul {
       -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
               box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -899,6 +901,9 @@ a:visited {
 
 .container:nth-child(4) {
   height: 232.5px; }
+
+h2 .entry-title {
+  margin-top: 0px; }
 
 /*--------------------------------------------------------------
 # Media
@@ -1588,11 +1593,24 @@ a:visited {
   width: 50px;
   height: 30px; }
 
+.fa-search {
+  color: #000; }
+
 .site-footer {
   background: url(../../images/dark-wood.png);
   background-size: 512px 512px;
   color: #fff;
-  padding: 0 50px; }
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: inherit;
+      -ms-flex-align: inherit;
+          align-items: inherit; }
 
 .site-footer a {
   color: #fff;
@@ -1609,7 +1627,8 @@ a:visited {
 .footer-blocks {
   display: -ms-flexbox;
   display: -webkit-box;
-  display: flex; }
+  display: flex;
+  padding: 0 150px; }
 
 .footer-blocks h3 {
   color: #d99054;
@@ -1800,7 +1819,7 @@ a:visited {
   text-align: -webkit-center;
   -ms-flex-item-align: center;
       align-self: center;
-  margin-right: 75px; }
+  margin-right: 0px; }
 
 .content-area-shop {
   padding-left: 0%; }
