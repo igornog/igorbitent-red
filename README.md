@@ -8,17 +8,17 @@ The theme Igorbitent was exclusively created to reflect the exactly website mode
 
 # Technologies used:
 
-The website is built with Wordpres, PHP, CSS(SASS), HTML, Gulp and Javascript(JQuery).
+The website is built with HTML, Wordpres/PHP, CSS(and SASS) and Javascript(JQuery).
 
 # Knowledge adquired during the project:
 
 - Time management for a multi-page project
 
-- Plug-in use such as Custom Field Suite, Theme Check and others.
+- Plug-in use such as Custom Field Suite, Theme Check and others
 
-- Widgets for WordPress
+- Widgets functionalities for WordPress
 
-- Custom Loops using tags, categories to filter content.
+- Custom Loops using tags, categories to filter content
 
 - Database management
 
