@@ -1,10 +1,4 @@
-/*--------------------------------------------------------------
-# Page Templates
---------------------------------------------------------------*/
-
 @import 'variables';
-
-/* utility */
 
 .max-contain {
   max-width: 1120px;
@@ -17,13 +11,12 @@
     margin-top:120px;
   }
 }
-/* Front page */
+
 .home,.page-template-page-about{
   .content-area{
     padding-left:0;
   }
 }  
-
 
 .home{
   .advbtn{
@@ -69,8 +62,6 @@
     }     
 }}
 
-//journal section//
-
 .journal-entries{
   display:flex;
   justify-content:space-between;
@@ -83,6 +74,7 @@
     }
   }  
 }  
+
 .journal-info{
 display: flex;
 flex-direction: column-reverse;
@@ -104,7 +96,6 @@ padding:.75rem;
   }
 }    
 
-//shop product//
 .product-type-blocks{
   font-size:0.95rem;
   display:flex;
@@ -177,7 +168,7 @@ color:black;
     color:white;
   }
 }
-/* adventure grid */
+
 .adventures-wrapper{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -284,7 +275,6 @@ color:black;
   }
 }
 
-/* product page */
 .post-type-archive-product{
 
   .content-area{
@@ -388,11 +378,6 @@ h1{
 }
 }
 
-
-
-
-
-/* Taxonomy product page */
 .term-wear, .term-eat, .term-do, .term-sleep{
   .content-area{
     width:100%;
@@ -440,7 +425,7 @@ h1{
   justify-content:center;
   white-space: nowrap;
 }
-/* single product page */
+
 .product-template-default{
   padding: 0%;
   .entry-title{
@@ -497,14 +482,12 @@ h1{
   }
 }
 
-/* Search form */
 .search-form{
   fieldset{
     border:0;
   }
 }
 
-/* Search */
 .search-results{
   .page-title{
     font-family:$headfont;
@@ -596,7 +579,6 @@ h1{
   padding-left:3rem;
 }
 
-/* 404 page */
 .error404{
   .content-area{
     padding-left: 5%;
@@ -647,7 +629,3 @@ h1{
     font-family:$headfont;
   }
 }
-
-
-
-
