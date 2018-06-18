@@ -6,8 +6,6 @@
  */
 ?>
 	</div>
-	<!-- #content -->
-
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="footer-blocks container">
 			<div class="footer-block-item">
@@ -41,19 +39,19 @@
 						<span class="day-of-the-week">
 							Monday to Friday:
 						</span>
-						9am to 5pm   
+							9am to 5pm   
 					</p>
 					<p>
 						<span class="day-of-the-week">
 							Saturday:
 						</span>
-						10am to 2pm    
+							10am to 2pm    
 					</p>
 					<p>
 						<span class="day-of-the-week">
 							Sunday:
 						</span>
-						Closed    
+							Closed    
 					</p>
 				</aside>
 			</div>
@@ -71,12 +69,10 @@
 			<div class="container">
 				Copyright © 2017 Inhabitent </div>
 		</div>
-		<!-- .site-info -->
 	</footer>
 	
 	<?php wp_footer(); ?>
 
 	</div>
-	<!-- #page -->
 	</body>
 </html>

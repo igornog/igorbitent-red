@@ -1,7 +1,7 @@
 <?php 
 $args = array(
 	'name'          => __( 'business_hours', 'theme_text_domain' ),
-	'id'            => 'unique-sidebar-id',    // ID should be LOWERCASE  ! ! !
+	'id'            => 'unique-sidebar-id',
 	'description'   => '',
         'class'         => '',
 	'before_widget' => '<li id="%1$s" class="widget %2$s">',
