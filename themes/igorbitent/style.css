@@ -219,6 +219,13 @@ th {
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'Novovento Sans Web';
+  src: url("../fonts/Novecento/02c38b4adb2c9de7ac5f50816b5bd43b.eot");
+  src: url("../fonts/Novecento/02c38b4adb2c9de7ac5f50816b5bd43b.eot?#iefix") format("embedded-opentype"), url("../fonts/Novecento/02c38b4adb2c9de7ac5f50816b5bd43b.ttf") format("truetype"), url("../fonts/Novecento/02c38b4adb2c9de7ac5f50816b5bd43b.svg#02c38b4adb2c9de7ac5f50816b5bd43b") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
 body,
 button,
 input,
@@ -646,6 +653,13 @@ a {
   width: 25%;
   padding-left: 5%;
   border-left: #eee solid 1px; }
+  .widget-area h3, .widget-area h2 {
+    font-size: 1.5rem;
+    line-height: 1.25rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 2px; }
+  .widget-area a:hover {
+    color: #404040; }
 
 .widget-title {
   font-family: 'Novovento Sans Wide';
@@ -668,12 +682,23 @@ a {
   text-decoration: none;
   color: #248A83; }
 
-.textwidget .contact-meta .fa {
-  padding-right: 0.5rem; }
+.contact p {
+  margin-bottom: 1.25rem; }
+
+.textwidget .contact-meta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .textwidget .contact-meta .fa {
+    padding-right: 0.5rem; }
 
 #secondary {
-  padding-top: 10%;
-  width: 40%; }
+  padding-top: 5%;
+  width: 40%;
+  padding-left: 50px; }
+
+.day-of-the-week {
+  font-weight: bold; }
 
 .site-content {
   display: -webkit-box;
@@ -683,7 +708,7 @@ a {
   margin-right: auto; }
 
 #primary {
-  margin-top: 63px; }
+  margin-top: 65px; }
 
 .content-area {
   width: 75%; }
@@ -714,7 +739,12 @@ a {
 
 .entry-header {
   font-family: "Novecento", Sans-Serif;
-  position: relative; }
+  position: relative;
+  width: 760px;
+  height: 520px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
   .entry-header img {
     width: 100%; }
   .entry-header .price {
@@ -751,11 +781,13 @@ a {
 
 .entry-meta {
   position: absolute;
-  right: 0;
-  bottom: 7px;
+  right: 0px;
+  bottom: 0px;
   background-color: #248A83;
   color: #fff;
-  padding: 0.5rem; }
+  padding: 0.25rem 2rem;
+  font-family: 'Novovento Sans Wide';
+  font-size: 18px; }
 
 .hentry {
   margin: 0 0 1rem; }
@@ -838,6 +870,10 @@ a:visited {
 
 h2 .entry-title {
   margin-top: 0px; }
+
+.entry-content p {
+  margin-bottom: 2rem;
+  padding-top: 10px; }
 
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
@@ -1443,7 +1479,7 @@ a:visited {
   margin-bottom: 4rem; }
 
 .logo {
-  margin-top: 5px;
+  margin-top: 10px;
   -webkit-filter: brightness(100%);
           filter: brightness(100%); }
 
@@ -1501,7 +1537,9 @@ a:visited {
           justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
-          align-items: center; }
+          align-items: center;
+  bottom: 10px;
+  position: relative; }
 
 .home .site-main h2 {
   font-family: "Novecento", Sans-Serif;
@@ -1555,8 +1593,8 @@ a:visited {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 3px;
-  padding-bottom: 4px; }
+  padding: 0px;
+  padding-bottom: 0px; }
 
 fieldset {
   position: relative;
@@ -1885,15 +1923,6 @@ fieldset {
       color: white;
       padding: 0 1.5rem;
       font-size: 1.5rem; }
-    .journal .post .entry-header .entry-meta {
-      position: absolute;
-      bottom: 0;
-      right: 0;
-      background: #248A83;
-      margin-bottom: 8px;
-      text-transform: uppercase;
-      color: white;
-      padding: 0 1.5rem; }
   .journal .post .entry-footer a {
     text-decoration: none; }
   .journal .post .entry-footer span {
@@ -1903,9 +1932,9 @@ fieldset {
     padding-top: 1.5rem; }
 
 .category-journal {
-  padding-left: 150px;
+  padding-left: 220px;
   padding-top: 50px;
-  padding-right: 100px; }
+  padding-right: 50px; }
 
 .journal-info .entry-title a {
   color: #248a83;
@@ -1931,6 +1960,25 @@ fieldset {
 .journal-entry img {
   -webkit-filter: brightness(100%);
           filter: brightness(100%); }
+
+#title-front {
+  top: 0px;
+  background-color: #248a83;
+  margin-top: 1.75rem;
+  font-size: 2.1rem;
+  max-width: 75%;
+  padding-left: 2rem;
+  padding-right: 3rem;
+  position: absolute;
+  width: auto;
+  height: auto;
+  text-align: -webkit-left;
+  padding-top: .5rem;
+  padding-bottom: .5rem; }
+
+.wp-post-image {
+  -webkit-filter: brightness(1);
+          filter: brightness(1); }
 
 h1 {
   text-transform: uppercase; }

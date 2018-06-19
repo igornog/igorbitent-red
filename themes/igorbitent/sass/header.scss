@@ -5,7 +5,7 @@
 }
 
 .logo{
-  margin-top: 5px;
+  margin-top: 10px;
   filter: brightness(100%);
 }
 
@@ -60,6 +60,8 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        bottom: 10px;
+        position: relative;
       }
       h2{
         font-family:$headfont;
@@ -109,8 +111,8 @@
   #masthead{
     display: flex;
     justify-content: center;
-    padding: 3px;
-    padding-bottom: 4px;
+    padding: 0px;
+    padding-bottom: 0px;
   }
 
   fieldset{

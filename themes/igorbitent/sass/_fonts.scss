@@ -67,4 +67,14 @@
 		url('../fonts/Novecento/Novecentosanswide-Normal.svg#Novecentosanswide-Normal') format('svg');
 	font-weight: normal;
 	font-style: normal;
-  }
+	}
+	
+	@font-face {
+		font-family: 'Novovento Sans Web';
+		src: url('../fonts/Novecento/02c38b4adb2c9de7ac5f50816b5bd43b.eot');
+		src: url('../fonts/Novecento/02c38b4adb2c9de7ac5f50816b5bd43b.eot?#iefix') format('embedded-opentype'),
+			url('../fonts/Novecento/02c38b4adb2c9de7ac5f50816b5bd43b.ttf') format('truetype'),
+			url('../fonts/Novecento/02c38b4adb2c9de7ac5f50816b5bd43b.svg#02c38b4adb2c9de7ac5f50816b5bd43b') format('svg');
+		font-weight: normal;
+		font-style: normal;
+		}

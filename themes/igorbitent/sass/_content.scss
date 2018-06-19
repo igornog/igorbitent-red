@@ -6,7 +6,7 @@
 }
 
 #primary{
-	margin-top:63px;
+	margin-top:65px;
 }
 
 .content-area{
@@ -46,11 +46,14 @@
 .entry-header {
 	font-family:$headfont;
 	position:relative;
+	width: 760px;
+    height: 520px;
+    display: flex;
 	img{
-		width:100%;
+	width: 100%;
 	}
 	.price{
-		font-size:2rem;
+	font-size:2rem;
 	}
 }
 
@@ -93,11 +96,13 @@
 
 .entry-meta{
 	position: absolute;
-	right: 0;
-	bottom: 7px;
+	right: 0px;
+	bottom: 0px;
 	background-color:$green;
 	color:$main;
-	padding:0.5rem;
+	padding: 0.25rem 2rem;
+	font-family: 'Novovento Sans Wide';
+	font-size: 18px;
 }
 
 .hentry {
@@ -200,3 +205,7 @@ h2 .entry-title{
 	margin-top: 0px;
 }
 
+.entry-content p{
+	margin-bottom: 2rem;
+	padding-top: 10px;
+}
