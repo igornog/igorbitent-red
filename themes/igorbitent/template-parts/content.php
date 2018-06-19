@@ -23,6 +23,6 @@
 
 	<div class="entry-content">
 		<?php the_excerpt(); ?>
-		<a href="<?php the_permalink();?>" class="read-more">Read More</a>
+		<a href="<?php the_permalink();?>" class="read-more">Read More → </a>
 	</div><!-- .entry-content -->
 </article><!-- #post-## -->
