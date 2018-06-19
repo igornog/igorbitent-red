@@ -6,6 +6,7 @@
 
 .logo{
   margin-top: 5px;
+  filter: brightness(100%);
 }
 
 .home .home-hero {
@@ -84,11 +85,45 @@
 
   #search-icon{
     display: contents;
+    color: #248A83;
   }
 
   .hero-banner img{
     height: 275px;
     width: 275px;
+    filter: brightness(100%);
   }
 
-  
+  .header-container{
+    width: 1120px;
+    display: flex;
+    padding: 0px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0;
+    height: 55px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  #masthead{
+    display: flex;
+    justify-content: center;
+    padding: 3px;
+  }
+
+  fieldset{
+    position: relative;
+    padding: 0%;
+    bottom: 1px;
+    color: $green;
+  }
+
+  .hfeed .site-header .header-container {
+    padding-left: 0%;
+    padding-right: 0%;
+  }
+
+  .fa-search{
+    color: #248A83;
+  }

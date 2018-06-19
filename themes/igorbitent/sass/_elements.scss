@@ -57,6 +57,7 @@ dd {
 }
 
 img {
+	filter: brightness(70%);
 	height: auto;
 	max-width: 100%;
 }
@@ -82,3 +83,6 @@ h2{
 
 }
 
+.btn:hover{
+	background-color:rgba(0, 0, 0, 1);
+}

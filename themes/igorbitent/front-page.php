@@ -63,7 +63,6 @@
     
     </section>
 
-    <?php?>
         <div class="max-contain">
 		    <h2>Inhabitent Journal</h2>
 		
