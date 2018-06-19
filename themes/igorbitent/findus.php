@@ -9,7 +9,7 @@
 
 	get_header(); ?>
 
-		<div id="primary" class="content-area content-area-fu">
+		<div id="primary-findus" class="content-area content-area-fu">
 			<main id="main" class="site-main site-main-fu" role="main">
 
 				<?php while ( have_posts() ) : the_post(); ?>

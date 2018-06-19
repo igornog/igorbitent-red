@@ -208,14 +208,14 @@ th {
 @font-face {
   font-family: 'Novovento Sans Wide';
   src: url("../fonts/Novecento/Novecentosanswide-DemiBold.eot");
-  src: url("../fonts/Novecento/Novecentosanswide-DemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Novecento/Novecentosanswide-DemiBold.woff2") format("woff2"), url("../fonts/Novecento/Novecentosanswide-DemiBold.woff") format("woff"), url("../fonts/Novecento/Novecentosanswide-DemiBold.ttf") format("truetype"), url("../fonts/Novecento/Novecentosanswide-DemiBold.svg#Novecentosanswide-DemiBold") format("svg");
+  src: url("../fonts/Novecento/Novecentosanswide-DemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Novecento/Novecentosanswide-DemiBold.ttf") format("truetype"), url("../fonts/Novecento/Novecentosanswide-DemiBold.svg#Novecentosanswide-DemiBold") format("svg");
   font-weight: 600;
   font-style: normal; }
 
 @font-face {
   font-family: 'Novovento Sans Wide';
   src: url("../fonts/Novecento/Novecentosanswide-Normal.eot");
-  src: url("../fonts/Novecento/Novecentosanswide-Normal.eot?#iefix") format("embedded-opentype"), url("../fonts/Novecento/Novecentosanswide-Normal.woff2") format("woff2"), url("../fonts/Novecento/Novecentosanswide-Normal.woff") format("woff"), url("../fonts/Novecento/Novecentosanswide-Normal.ttf") format("truetype"), url("../fonts/Novecento/Novecentosanswide-Normal.svg#Novecentosanswide-Normal") format("svg");
+  src: url("../fonts/Novecento/Novecentosanswide-Normal.eot?#iefix") format("embedded-opentype"), url("../fonts/Novecento/Novecentosanswide-Normal.ttf") format("truetype"), url("../fonts/Novecento/Novecentosanswide-Normal.svg#Novecentosanswide-Normal") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -342,8 +342,19 @@ h2 {
   margin-top: 50px;
   margin-bottom: 40px; }
 
-.btn:hover {
-  background-color: black; }
+.btn .read-more {
+  font-size: 14px;
+  line-height: 14.4px;
+  padding-top: 12px;
+  letter-spacing: -0.1px;
+  padding-bottom: 12px; }
+
+.journal-info a {
+  font-size: 14px;
+  line-height: 14.4px;
+  padding-top: 12px;
+  letter-spacing: -0.2px;
+  padding-bottom: 12px; }
 
 button,
 input[type="button"],
@@ -801,7 +812,8 @@ a {
     color: #fff;
     text-decoration: none;
     text-transform: uppercase;
-    padding: .75rem 1.5rem; }
+    padding: .75rem 1.5rem;
+    font-size: 13px; }
 
 .product-type-block-wrapper:hover {
   border: 1px solid #d99054;
@@ -1543,7 +1555,8 @@ a:visited {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 3px; }
+  padding: 3px;
+  padding-bottom: 4px; }
 
 fieldset {
   position: relative;
@@ -1901,7 +1914,10 @@ fieldset {
   margin-bottom: -65px; }
 
 .journal-info a {
-  margin-top: -35px; }
+  margin-top: -35px;
+  padding-top: 12px;
+  letter-spacing: -0.1px;
+  padding-bottom: 12px; }
 
 .entry-title a:hover {
   color: #2f1339; }
@@ -1996,6 +2012,10 @@ h1 {
   background: #19625d;
   color: #fff; }
 
+.moreadventures .read-more {
+  padding-bottom: 12px;
+  letter-spacing: -0.1px; }
+
 .post-type-archive-adventure .site-main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2049,7 +2069,10 @@ h1 {
 .post-type-archive-adventure .advbtn {
   background: transparent;
   color: #fff;
-  border: 1px solid white; }
+  border: 1px solid white;
+  font-size: 14.4px;
+  line-height: 14.4px;
+  font-weight: 300; }
 
 .post-type-archive-adventure .advbtn:hover {
   background-color: #248A83;
@@ -2116,6 +2139,10 @@ iframe {
   border: 0;
   margin-left: 96px;
   margin-bottom: 50px; }
+
+#primary-findus {
+  margin-top: 60px;
+  margin-left: 150px; }
 
 .archive .page-header {
   padding-top: 0rem; }

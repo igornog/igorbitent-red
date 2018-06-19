@@ -83,6 +83,18 @@ h2{
 
 }
 
-.btn:hover{
-	background-color:rgba(0, 0, 0, 1);
+.btn .read-more {
+	font-size: 14px;
+	line-height: 14.4px;
+	padding-top: 12px;
+    letter-spacing: -0.1px;
+    padding-bottom: 12px;
+}
+
+.journal-info a{
+	font-size: 14px;
+	line-height: 14.4px;
+	padding-top: 12px;
+    letter-spacing: -0.2px;
+    padding-bottom: 12px;
 }

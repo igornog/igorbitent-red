@@ -114,7 +114,8 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 3px; }
+  padding: 3px;
+  padding-bottom: 4px; }
 
 fieldset {
   position: relative;
