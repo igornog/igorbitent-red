@@ -7,14 +7,14 @@
 get_header(); ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+		<main id="main" class="site-main site-main-single" role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
 
 		<?php get_template_part( 'template-parts/content', 'single' ); ?>
 		<?php the_post_navigation(); ?>
 		
-		<div>
+		<div class="buttons-footer-single">
         	<button type="submit" class="single-product-buttons"><i class="fa fa-facebook" aria-hidden="true"></i>LIKE</button>
         	<button type="submit" class="single-product-buttons"><i class="fa fa-twitter" aria-hidden="true"></i>TWEET</button>
         	<button type="submit" class="single-product-buttons"><i class="fa fa-pinterest" aria-hidden="true"></i>PIN</button>
