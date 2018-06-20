@@ -50,7 +50,7 @@
             <?php echo $term->description; ?>
             </p>
             <p>
-            <a href="<?php echo get_term_link( $term ); ?>" class="btn">
+            <a href="<?php echo get_term_link( $term ); ?>" id="stuffbutton" class="btn">
             <?php echo $term->name; ?> Stuff</a>
             </p>
           </div>
@@ -117,7 +117,7 @@
                 <div class="container">
                 <article class="adventure-entry">
             
-                    <?php the_post_thumbnail( 'medium' ); ?>
+                    <?php the_post_thumbnail( 'large' ); ?>
             
                     <div class="adventure-info">
                     <a href="<?php the_permalink(); ?>" class="adventure-read-more">read more</a>
@@ -132,7 +132,7 @@
             
             </section>
             
-            <p class="advreadmore"><a href="<?php echo home_url() . '/adventure'; ?>" class="moreadventures read-more">More Adventures</a></p>
+            <p class="advreadmore"><a href="<?php echo home_url() . '/adventure'; ?>" id="moreadvbutton" class="moreadventures read-more">More Adventures</a></p>
             
             </div>
         </main>

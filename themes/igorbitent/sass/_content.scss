@@ -24,8 +24,12 @@
 	padding-left:1rem;
 	padding-right:1rem;	
 		a{
-		color:$main;
+		color:#fff;
 		text-decoration: none;
+
+		a:hover{
+		color:#f0e4d1;
+		}
 		}
 	}
 }
