@@ -2015,13 +2015,14 @@ fieldset {
   padding-right: 50px; }
 
 .journal-info .entry-title {
-  width: 358px; }
+  width: 346px; }
   .journal-info .entry-title a {
     color: #248a83;
     font-weight: 600;
     text-decoration: none;
     font-size: 1.3rem;
-    letter-spacing: 2px; }
+    letter-spacing: 2px;
+    line-height: 26px; }
     .journal-info .entry-title a .entry-title {
       padding-right: 0px; }
 
@@ -2139,6 +2140,7 @@ h1 {
     line-height: 1; }
   .adventure-info .entry-title {
     margin-top: 90px;
+    margin-bottom: 30px;
     letter-spacing: 2px; }
 
 .adventures-wrapper .adventure-entry .adventure-info a {
