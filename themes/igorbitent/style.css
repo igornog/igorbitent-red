@@ -1764,6 +1764,11 @@ fieldset {
   padding-left: 220px;
   font-size: 14.4px; }
 
+.footer-block-item .text-logo {
+  height: 125px; }
+  .footer-block-item .text-logo img {
+    height: 50px; }
+
 .page .content-area-abt {
   padding-left: 0%;
   font-family: 'Merriweather'; }
@@ -2009,11 +2014,16 @@ fieldset {
   padding-top: 0px;
   padding-right: 50px; }
 
-.journal-info .entry-title a {
-  color: #248a83;
-  font-weight: 600;
-  text-decoration: none;
-  font-size: 20.8px; }
+.journal-info .entry-title {
+  width: 358px; }
+  .journal-info .entry-title a {
+    color: #248a83;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.3rem;
+    letter-spacing: 2px; }
+    .journal-info .entry-title a .entry-title {
+      padding-right: 0px; }
 
 .journal-date {
   margin-bottom: -65px; }
@@ -2092,7 +2102,7 @@ h1 {
 
 .single.single-adventure .entry-title {
   font-size: 3rem;
-  margin-bottom: 0; }
+  margin-bottom: 15px; }
 
 .single.single-adventure .social-buttons {
   margin-bottom: 2rem; }
@@ -2103,7 +2113,7 @@ h1 {
   position: absolute; }
 
 .read-more-adv {
-  margin: 50px; }
+  margin: 15px; }
 
 .adventures-wrapper .container:nth-child(3) .adventure-entry img {
   height: 232px; }
@@ -2117,16 +2127,23 @@ h1 {
   text-transform: uppercase;
   text-decoration: none;
   padding: 0.75rem 1.5rem;
-  font-family: Novecento,Sans-Serif;
-  position: absolute;
+  position: initial;
   top: 170px; }
+  .adventure-read-more a {
+    margin-top: 0px; }
 
 .adventure-info {
   margin-top: -70px; }
+  .adventure-info a {
+    height: 42px;
+    line-height: 1; }
+  .adventure-info .entry-title {
+    margin-top: 90px;
+    letter-spacing: 2px; }
 
 .adventures-wrapper .adventure-entry .adventure-info a {
   color: #fff;
-  margin-top: 55px; }
+  margin-top: 0px; }
 
 .home .advreadmore {
   padding-top: 1rem;
@@ -2142,11 +2159,59 @@ h1 {
   -webkit-filter: brightness(0.6);
           filter: brightness(0.6); }
 
-.advreadmore a {
-  background: blue; }
+.adventure-read-more {
+  margin: 0%; }
+  .adventure-read-more a {
+    margin-top: 80px;
+    height: 42px;
+    line-height: 1px; }
 
-.advreadmore a:hover {
-  background: black; }
+.advreadmore {
+  margin: 0%; }
+  .advreadmore a:hover {
+    background: black; }
+
+.container:first-child .entry-title a p {
+  height: 550px; }
+
+.adventures-wrapper .container:first-child .adventure-entry .entry-title a {
+  font-size: 3rem; }
+
+.adventures-wrapper .container:nth-child(2) .adventure-entry .entry-title a {
+  font-size: 2.4rem; }
+
+.container:first-child img {
+  height: 550px;
+  width: 550px; }
+
+.container:nth-child(2) {
+  height: 265px;
+  width: 550px; }
+
+.container:nth-child(3) {
+  width: 265px;
+  height: 265px; }
+  .container:nth-child(3) .adventure-info a {
+    margin: 0%;
+    margin-bottom: 20px; }
+  .container:nth-child(3) .entry-title {
+    margin-bottom: 10px; }
+
+.container:nth-child(4) {
+  width: 265px;
+  height: 265px; }
+  .container:nth-child(4) .adventure-info a {
+    margin: 0%;
+    margin-bottom: 20px; }
+  .container:nth-child(4) .entry-title {
+    margin-bottom: 10px; }
+
+.adventure-info a {
+  margin: 0;
+  margin-top: 30px; }
+
+.adventures-wrapper {
+  gap: 2px 20px; }
 
 .post-type-archive-adventure .site-main {
   display: -webkit-box;

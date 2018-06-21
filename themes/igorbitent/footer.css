@@ -109,3 +109,8 @@
   width: 800px;
   padding-left: 220px;
   font-size: 14.4px; }
+
+.footer-block-item .text-logo {
+  height: 125px; }
+  .footer-block-item .text-logo img {
+    height: 50px; }
