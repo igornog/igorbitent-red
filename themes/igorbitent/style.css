@@ -2213,6 +2213,9 @@ h1 {
 .adventures-wrapper {
   gap: 2px 20px; }
 
+.adventures-wrapper .adventure-entry .adventure-info {
+  padding: 1.25rem; }
+
 .post-type-archive-adventure .site-main {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2476,8 +2479,3 @@ cite .fn {
 
 .blog .content-area, .post-template-default .content-area {
   margin-top: 55px; }
-
-.footer-block-item .text-logo {
-  height: 125px; }
-  .footer-block-item .text-logo a img {
-    height: 50px; }
