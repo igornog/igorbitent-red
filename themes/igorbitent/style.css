@@ -1766,7 +1766,7 @@ fieldset {
 
 .footer-block-item .text-logo {
   height: 125px; }
-  .footer-block-item .text-logo img {
+  .footer-block-item .text-logo a img {
     height: 50px; }
 
 .page .content-area-abt {
@@ -2476,3 +2476,8 @@ cite .fn {
 
 .blog .content-area, .post-template-default .content-area {
   margin-top: 55px; }
+
+.footer-block-item .text-logo {
+  height: 125px; }
+  .footer-block-item .text-logo a img {
+    height: 50px; }
