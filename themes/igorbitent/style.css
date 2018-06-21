@@ -917,6 +917,9 @@ textarea {
 .comments-title {
   margin-top: 80px; }
 
+#primary {
+  padding-bottom: 50px; }
+
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
 .comment-content .wp-smiley {
