@@ -5,13 +5,10 @@
 	@include center();
 }
 
-#primary{
-	margin-top:65px;
-}
-
 .content-area{
 	width:75%;
 }
+
 
 .archive{
 	.entry-title{
@@ -210,6 +207,47 @@ h2 .entry-title{
 }
 
 .entry-content p{
-	margin-bottom: 2rem;
+	margin-bottom: 20px;
 	padding-top: 10px;
+}
+
+.entry-content span{
+	font-size: 23px;
+}
+
+.logged-in-as{
+	margin-top: 0px;
+}
+
+.comment-form-comment label{
+	font-family: 'Novovento Sans Wide';
+	color: #2f1339;
+	font-size: 1.1rem;
+	margin-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+textarea{
+	margin-top: 10px;
+}
+
+.form-submit input{
+	font-size: 14.4px;
+}
+
+.comment-body{
+	display: flex;
+    margin-top: 50px;
+}
+
+.comment-metadata p{
+	color: #248a83;
+}
+
+.blog .content-area{
+	margin-top: 55px;
+}
+
+.comments-title{
+	margin-top: 80px;
 }

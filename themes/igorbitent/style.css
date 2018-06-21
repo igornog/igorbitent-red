@@ -716,9 +716,6 @@ a {
   margin-left: auto;
   margin-right: auto; }
 
-#primary {
-  margin-top: 65px; }
-
 .content-area {
   width: 75%; }
 
@@ -883,8 +880,42 @@ h2 .entry-title {
   margin-top: 0px; }
 
 .entry-content p {
-  margin-bottom: 2rem;
+  margin-bottom: 20px;
   padding-top: 10px; }
+
+.entry-content span {
+  font-size: 23px; }
+
+.logged-in-as {
+  margin-top: 0px; }
+
+.comment-form-comment label {
+  font-family: 'Novovento Sans Wide';
+  color: #2f1339;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase; }
+
+textarea {
+  margin-top: 10px; }
+
+.form-submit input {
+  font-size: 14.4px; }
+
+.comment-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px; }
+
+.comment-metadata p {
+  color: #248a83; }
+
+.blog .content-area {
+  margin-top: 55px; }
+
+.comments-title {
+  margin-top: 80px; }
 
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
@@ -1534,7 +1565,8 @@ a:visited {
 
 .home .content-area {
   width: 100%;
-  padding-right: 0; }
+  padding-right: 0;
+  margin-top: 65px; }
 
 .home .site-main .hero-banner {
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url("../../images/home-hero.jpg");
@@ -1752,13 +1784,15 @@ fieldset {
       -ms-flex-pack: center;
           justify-content: center;
   -ms-flex-line-pack: center;
-      align-content: center; }
+      align-content: center;
+  margin-top: 0%; }
 
 .content-area-abt {
   width: 100%;
   height: auto;
   text-align: -webkit-center;
-  padding: inherit; }
+  padding: inherit;
+  margin-top: 56px; }
 
 .entry-content-abt {
   max-width: 800px;
@@ -1972,7 +2006,7 @@ fieldset {
 
 .category-journal {
   padding-left: 220px;
-  padding-top: 50px;
+  padding-top: 0px;
   padding-right: 50px; }
 
 .journal-info .entry-title a {
@@ -2021,6 +2055,9 @@ fieldset {
 
 .entry-title-journal a:hover {
   color: #f0e4d1; }
+
+.post {
+  margin-top: 60px; }
 
 h1 {
   text-transform: uppercase; }
@@ -2233,7 +2270,8 @@ h1 {
 iframe {
   border: 0;
   margin-left: 96px;
-  margin-bottom: 50px; }
+  margin-bottom: 50px;
+  width: 750px; }
 
 #primary-findus {
   margin-top: 60px;
@@ -2341,7 +2379,7 @@ iframe {
   font-size: 16px; }
   .comment-metadata a {
     text-decoration: none;
-    color: #404040; }
+    color: #248A83; }
 
 .reply a {
   text-decoration: none;
@@ -2370,3 +2408,6 @@ cite .fn {
   text-decoration: none;
   color: #404040;
   font-size: 16px; }
+
+.blog .content-area, .post-template-default .content-area {
+  margin-top: 55px; }
