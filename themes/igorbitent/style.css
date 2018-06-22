@@ -179,43 +179,43 @@ th {
 
 @font-face {
   font-family: 'Merriweather';
-  src: url("../fonts/Merriweather/Merriweather-Light.eot");
-  src: url("../fonts/Merriweather/Merriweather-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Merriweather/Merriweather-Light.woff2") format("woff2"), url("../fonts/Merriweather/Merriweather-Light.woff") format("woff"), url("../fonts/Merriweather/Merriweather-Light.ttf") format("truetype"), url("../fonts/Merriweather/Merriweather-Light.svg#Merriweather-Light") format("svg");
-  font-weight: 300;
-  font-style: normal; }
-
-@font-face {
-  font-family: 'Merriweather';
-  src: url("Merriweather-BoldItalic.eot");
-  src: url("Merriweather-BoldItalic.eot?#iefix") format("embedded-opentype"), url("Merriweather-BoldItalic.woff2") format("woff2"), url("Merriweather-BoldItalic.woff") format("woff"), url("Merriweather-BoldItalic.ttf") format("truetype"), url("Merriweather-BoldItalic.svg#Merriweather-BoldItalic") format("svg");
-  font-weight: bold;
-  font-style: italic; }
-
-@font-face {
-  font-family: 'Merriweather';
-  src: url("../fonts/Merriweather/Merriweather-Bold.eot");
-  src: url("../fonts/Merriweather/Merriweather-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Merriweather/Merriweather-Bold.woff2") format("woff2"), url("../fonts/Merriweather/Merriweather-Bold.woff") format("woff"), url("../fonts/Merriweather/Merriweather-Bold.ttf") format("truetype"), url("../fonts/Merriweather/Merriweather-Bold.svg#Merriweather-Bold") format("svg");
+  src: url("../../fonts/Merriweather-Bold.eot");
+  src: url("../../fonts/Merriweather-Bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather-Bold.woff2") format("woff2"), url("../../fonts/Merriweather-Bold.woff") format("woff"), url("../../fonts/Merriweather-Bold.ttf") format("truetype"), url("../../fonts/Merriweather-Bold.svg#Merriweather-Bold") format("svg");
   font-weight: bold;
   font-style: normal; }
 
 @font-face {
   font-family: 'Merriweather';
-  src: url("../fonts/Merriweather/Merriweather-LightItalic.eot");
-  src: url("../fonts/Merriweather/Merriweather-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Merriweather/Merriweather-LightItalic.woff2") format("woff2"), url("../fonts/Merriweather/Merriweather-LightItalic.woff") format("woff"), url("../fonts/Merriweather/Merriweather-LightItalic.ttf") format("truetype"), url("../fonts/Merriweather/Merriweather-LightItalic.svg#Merriweather-LightItalic") format("svg");
+  src: url("../../fonts/Merriweather-Light.eot");
+  src: url("../../fonts/Merriweather-Light.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather-Light.woff2") format("woff2"), url("../../fonts/Merriweather-Light.woff") format("woff"), url("../../fonts/Merriweather-Light.ttf") format("truetype"), url("../../fonts/Merriweather-Light.svg#Merriweather-Light") format("svg");
+  font-weight: 300;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Merriweather';
+  src: url("../../fonts/Merriweather-LightItalic.eot");
+  src: url("../../fonts/Merriweather-LightItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather-LightItalic.woff2") format("woff2"), url("../../fonts/Merriweather-LightItalic.woff") format("woff"), url("../../fonts/Merriweather-LightItalic.ttf") format("truetype"), url("../../fonts/Merriweather-LightItalic.svg#Merriweather-LightItalic") format("svg");
   font-weight: 300;
   font-style: italic; }
 
 @font-face {
-  font-family: 'Novovento Sans Wide';
-  src: url("../fonts/Novecento/Novecentosanswide-DemiBold.eot");
-  src: url("../fonts/Novecento/Novecentosanswide-DemiBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Novecento/Novecentosanswide-DemiBold.ttf") format("truetype"), url("../fonts/Novecento/Novecentosanswide-DemiBold.svg#Novecentosanswide-DemiBold") format("svg");
-  font-weight: 600;
+  font-family: 'Merriweather';
+  src: url("../../fonts/Merriweather-BoldItalic.eot");
+  src: url("../../fonts/Merriweather-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../../fonts/Merriweather-BoldItalic.woff2") format("woff2"), url("../../fonts/Merriweather-BoldItalic.woff") format("woff"), url("../../fonts/Merriweather-BoldItalic.ttf") format("truetype"), url("../../fonts/Merriweather-BoldItalic.svg#Merriweather-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic; }
+
+@font-face {
+  font-family: 'Novecento';
+  src: url("../../fonts/3018a28e55913e21e7ce1c051fd8beeb.eot");
+  src: url("../../fonts/3018a28e55913e21e7ce1c051fd8beeb.eot?#iefix") format("embedded-opentype"), url("../../fonts/3018a28e55913e21e7ce1c051fd8beeb.woff2") format("woff2"), url("../../fonts/3018a28e55913e21e7ce1c051fd8beeb.woff") format("woff"), url("../../fonts/3018a28e55913e21e7ce1c051fd8beeb.ttf") format("truetype"), url("../../fonts/3018a28e55913e21e7ce1c051fd8beeb.svg#.") format("svg");
+  font-weight: bold;
   font-style: normal; }
 
 @font-face {
-  font-family: 'Novovento Sans Wide';
-  src: url("../fonts/Novecento/Novecentosanswide-Normal.eot");
-  src: url("../fonts/Novecento/Novecentosanswide-Normal.eot?#iefix") format("embedded-opentype"), url("../fonts/Novecento/Novecentosanswide-Normal.ttf") format("truetype"), url("../fonts/Novecento/Novecentosanswide-Normal.svg#Novecentosanswide-Normal") format("svg");
+  font-family: 'Novecento';
+  src: url("../../fonts/57eb59ad161ed474e87fcbf41c8e6c0b.eot");
+  src: url("../../fonts/57eb59ad161ed474e87fcbf41c8e6c0b.eot?#iefix") format("embedded-opentype"), url("../../fonts/57eb59ad161ed474e87fcbf41c8e6c0b.woff2") format("woff2"), url("../../fonts/57eb59ad161ed474e87fcbf41c8e6c0b.woff") format("woff"), url("../../fonts/57eb59ad161ed474e87fcbf41c8e6c0b.ttf") format("truetype"), url("../../fonts/57eb59ad161ed474e87fcbf41c8e6c0b.svg#.") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -330,14 +330,14 @@ table {
   width: 100%; }
 
 h1, h3 {
-  font-family: 'Novovento Sans Wide';
+  font-family: 'Novecento';
   text-transform: uppercase;
   margin-top: 50px;
   margin-bottom: 40px; }
 
 h2 {
   text-align: center;
-  font-family: 'Novovento Sans Wide';
+  font-family: 'Novecento';
   text-transform: uppercase;
   margin-top: 50px;
   margin-bottom: 40px; }
@@ -376,7 +376,7 @@ input[type="submit"] {
   font-size: 1rem;
   font-weight: 400;
   border-radius: unset;
-  font-family: "Novovento Sans Wide", Sans-Serif;
+  font-family: "Novecento", Sans-Serif;
   text-transform: uppercase;
   font-size: 12px;
   font-size: 0.75rem;
@@ -433,7 +433,7 @@ input {
   background: transparent;
   width: 0px;
   border: none;
-  font-family: "Novovento Sans Wide", Sans-Serif; }
+  font-family: "Novecento", Sans-Serif; }
 
 .comment-form {
   display: -webkit-box;
@@ -511,7 +511,7 @@ a {
             justify-content: space-between;
     padding-left: 5%;
     padding-right: 5%;
-    font-family: "Novovento Sans Wide", Sans-Serif; }
+    font-family: "Novecento", Sans-Serif; }
   .hfeed .site-header .site-branding a img {
     height: 35px; }
 
@@ -671,7 +671,7 @@ a {
     color: #404040; }
 
 .widget-title {
-  font-family: 'Novovento Sans Wide';
+  font-family: 'Novecento';
   text-transform: uppercase;
   font-size: 18.72px;
   text-align: left; }
@@ -746,7 +746,7 @@ a {
   display: block; }
 
 .entry-header {
-  font-family: "Novovento Sans Wide", Sans-Serif;
+  font-family: "Novecento", Sans-Serif;
   position: relative;
   width: 760px;
   height: 520px;
@@ -766,7 +766,7 @@ a {
   font-size: 2.0rem;
   max-width: 75%;
   color: #fff;
-  font-family: "Novovento Sans Wide", Sans-Serif;
+  font-family: "Novecento", Sans-Serif;
   padding: 0 20px; }
 
 .blog .read-more-wrapper {
@@ -783,7 +783,7 @@ a {
   position: absolute; }
 
 .blog .entry-header a {
-  font-family: "Novovento Sans Wide", Sans-Serif;
+  font-family: "Novecento", Sans-Serif;
   color: #fff;
   text-decoration: none; }
 
@@ -794,7 +794,7 @@ a {
   background-color: #248A83;
   color: #fff;
   padding: 0.25rem 2rem;
-  font-family: 'Novovento Sans Wide';
+  font-family: 'Novecento';
   font-size: 18px; }
 
 .hentry {
@@ -847,7 +847,7 @@ a {
   .product-type-block-wrapper img {
     height: 65px; }
   .product-type-block-wrapper a.btn {
-    font-family: "Novovento Sans Wide", Sans-Serif;
+    font-family: "Novecento", Sans-Serif;
     background: #248A83;
     color: #fff;
     text-decoration: none;
@@ -865,7 +865,7 @@ a {
   border: 1px solid black;
   text-decoration: none;
   padding: .75rem 1.5rem;
-  font-family: "Novovento Sans Wide", Sans-Serif; }
+  font-family: "Novecento", Sans-Serif; }
 
 a:visited {
   color: white; }
@@ -890,7 +890,7 @@ h2 .entry-title {
   margin-top: 0px; }
 
 .comment-form-comment label {
-  font-family: 'Novovento Sans Wide';
+  font-family: 'Novecento';
   color: #2f1339;
   font-size: 1.1rem;
   margin-bottom: 0.5rem;
@@ -1020,7 +1020,7 @@ object {
           justify-content: center; }
 
 .home .site-main h2 {
-  font-family: "Novovento Sans Wide", Sans-Serif;
+  font-family: "Novecento", Sans-Serif;
   text-align: center;
   font-size: 2rem;
   padding-top: 1rem;
@@ -1084,7 +1084,7 @@ object {
   .product-type-block-wrapper img {
     height: 65px; }
   .product-type-block-wrapper a.btn {
-    font-family: "Novovento Sans Wide", Sans-Serif;
+    font-family: "Novecento", Sans-Serif;
     background: #248A83;
     color: #fff;
     text-decoration: none;
@@ -1101,7 +1101,7 @@ object {
   border: 1px solid black;
   text-decoration: none;
   padding: .75rem 1.5rem;
-  font-family: "Novovento Sans Wide", Sans-Serif; }
+  font-family: "Novecento", Sans-Serif; }
 
 a:visited {
   color: black; }
@@ -1117,7 +1117,7 @@ a:visited {
   text-transform: uppercase;
   text-decoration: none;
   padding: .75rem 1.5rem;
-  font-family: "Novovento Sans Wide", Sans-Serif; }
+  font-family: "Novecento", Sans-Serif; }
 
 .adv-read-more {
   color: white;
@@ -1125,7 +1125,7 @@ a:visited {
   border: 1px solid white;
   text-decoration: none;
   padding: .75rem 1.5rem;
-  font-family: "Novovento Sans Wide", Sans-Serif; }
+  font-family: "Novecento", Sans-Serif; }
   .adv-read-more a:visited {
     color: white; }
 
@@ -1275,7 +1275,7 @@ a:visited {
   text-align: center; }
   .post-type-archive-product .page-header .page-title {
     border-bottom: none;
-    font-family: "Novovento Sans Wide", Sans-Serif; }
+    font-family: "Novecento", Sans-Serif; }
 
 .post-type-archive-product .content-area {
   padding-bottom: 5rem; }
@@ -1289,7 +1289,7 @@ a:visited {
           justify-content: center;
   padding-bottom: 1rem;
   border-bottom: 1px dashed #e1e1e1;
-  font-family: "Novovento Sans Wide", Sans-Serif; }
+  font-family: "Novecento", Sans-Serif; }
 
 .post-type-archive-product .shop-category {
   display: -webkit-box;
@@ -1314,7 +1314,7 @@ a:visited {
 
 .term-wear .tax-page-title, .term-eat .tax-page-title, .term-do .tax-page-title, .term-sleep .tax-page-title {
   text-transform: uppercase;
-  font-family: "Novovento Sans Wide", Sans-Serif; }
+  font-family: "Novecento", Sans-Serif; }
 
 .term-wear .taxonomy-description, .term-eat .taxonomy-description, .term-do .taxonomy-description, .term-sleep .taxonomy-description {
   font-size: 1rem;
@@ -1355,7 +1355,7 @@ a:visited {
 .product-template-default {
   padding: 0%; }
   .product-template-default .entry-title {
-    font-family: "Novovento Sans Wide", Sans-Serif;
+    font-family: "Novecento", Sans-Serif;
     color: #d99054;
     text-transform: uppercase; }
   .product-template-default .content-area {
@@ -1390,7 +1390,7 @@ a:visited {
   background: #fff;
   border-radius: 0;
   font-size: 14px;
-  font-family: "Novovento Sans Wide", Sans-Serif; }
+  font-family: "Novecento", Sans-Serif; }
   .single-product-buttons:hover {
     background-color: #248A83;
     border: 1px solid #248A83;
@@ -1402,7 +1402,7 @@ a:visited {
   border: 0; }
 
 .search-results .page-title {
-  font-family: "Novovento Sans Wide", Sans-Serif; }
+  font-family: "Novecento", Sans-Serif; }
 
 .search-results .type-product {
   padding-top: 3rem; }
@@ -1512,7 +1512,7 @@ a:visited {
   width: 200px !important; }
 
 .page-template-default h1 {
-  font-family: "Novovento Sans Wide", Sans-Serif; }
+  font-family: "Novecento", Sans-Serif; }
 
 .product-type-block-wrapper p {
   font-family: 'Merriweather';
@@ -1588,7 +1588,7 @@ a:visited {
   position: relative; }
 
 .home .site-main h2 {
-  font-family: "Novovento Sans Wide", Sans-Serif;
+  font-family: "Novecento", Sans-Serif;
   text-align: center;
   font-size: 2rem;
   padding-top: 1rem;
@@ -1730,7 +1730,6 @@ fieldset {
           filter: brightness(100%); }
 
 .site-info {
-  font-family: Novecento Sans Web,sans-serif;
   padding: 1.5rem 0;
   text-align: center;
   text-transform: uppercase; }
@@ -1744,20 +1743,20 @@ fieldset {
 
 .cat-links {
   margin-right: 1.5rem;
-  font-family: 'Novovento Sans Wide';
+  font-family: 'Novecento';
   text-transform: uppercase; }
   .cat-links a {
     text-decoration: none;
     color: #248A83;
-    font-family: 'Novovento Sans Wide'; }
+    font-family: 'Novecento'; }
 
 .tags-links {
-  font-family: 'Novovento Sans Wide';
+  font-family: 'Novecento';
   text-transform: uppercase; }
   .tags-links a {
     text-decoration: none;
     color: #248A83;
-    font-family: 'Novovento Sans Wide'; }
+    font-family: 'Novecento'; }
 
 .nav-previous {
   display: none; }
@@ -1948,7 +1947,7 @@ fieldset {
     color: #248A83;
     font-size: 1.5rem;
     text-transform: uppercase;
-    font-family: 'Novovento Sans Wide'; }
+    font-family: 'Novecento'; }
 
 .product-post a img {
   max-height: 180px;
@@ -2240,7 +2239,7 @@ h1 {
   text-align: center;
   font-size: 2.5rem;
   border-bottom: 1px dashed #e1e1e1;
-  font-family: "Novovento Sans Wide", Sans-Serif; }
+  font-family: "Novecento", Sans-Serif; }
 
 .post-type-archive-adventure .entry-title {
   font-size: 3.1rem;
@@ -2299,7 +2298,7 @@ h1 {
 
 .post-15 h2 {
   clear: both;
-  font-family: "Novovento Sans Wide", Sans-Serif;
+  font-family: "Novecento", Sans-Serif;
   letter-spacing: 2px;
   text-transform: uppercase; }
 
@@ -2319,7 +2318,7 @@ h1 {
 
 .post-15 label {
   color: #2f1339;
-  font-family: "Novovento Sans Wide", Sans-Serif;
+  font-family: "Novecento", Sans-Serif;
   font-size: 17.6px;
   font-size: 1.1rem;
   margin-bottom: .5rem;
@@ -2473,7 +2472,7 @@ cite .fn {
 
 .comment-reply-title {
   font-size: 28.8px;
-  font-family: "Novovento Sans Wide", Sans-Serif;
+  font-family: "Novecento", Sans-Serif;
   color: #404040;
   font-weight: 700; }
 

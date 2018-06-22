@@ -73,7 +73,6 @@
           filter: brightness(100%); }
 
 .site-info {
-  font-family: Novecento Sans Web,sans-serif;
   padding: 1.5rem 0;
   text-align: center;
   text-transform: uppercase; }
@@ -87,20 +86,20 @@
 
 .cat-links {
   margin-right: 1.5rem;
-  font-family: 'Novovento Sans Wide';
+  font-family: 'Novecento';
   text-transform: uppercase; }
   .cat-links a {
     text-decoration: none;
     color: #248A83;
-    font-family: 'Novovento Sans Wide'; }
+    font-family: 'Novecento'; }
 
 .tags-links {
-  font-family: 'Novovento Sans Wide';
+  font-family: 'Novecento';
   text-transform: uppercase; }
   .tags-links a {
     text-decoration: none;
     color: #248A83;
-    font-family: 'Novovento Sans Wide'; }
+    font-family: 'Novecento'; }
 
 .nav-previous {
   display: none; }
