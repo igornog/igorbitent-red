@@ -6,6 +6,7 @@
  */
 get_header(); ?>
 
+	<div class="wrapper-content-sidebar">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main site-main-single" role="main">
 

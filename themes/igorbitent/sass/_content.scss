@@ -254,5 +254,15 @@ textarea{
 
 
 #primary{
- padding-bottom: 50px; 
+	padding-bottom: 50px; 
+}
+
+.hfeed {
+	display: flex;
+	justify-content: center;
+}
+
+.wrapper-content-sidebar{
+	width: 1120px;
+	display: flex;
 }
