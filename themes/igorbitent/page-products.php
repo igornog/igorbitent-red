@@ -20,7 +20,7 @@ get_header(); ?>
 
 		<header class="page-header page-header-shop">
 			
-        <spam><h1 class="page-title">SHOP STUFF</h1></spam>
+        <span><h1 class="page-title">SHOP STUFF</h1></span>
 
 		<?php
 		$terms = get_terms( array(

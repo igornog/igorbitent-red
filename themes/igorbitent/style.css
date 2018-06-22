@@ -1858,6 +1858,8 @@ fieldset {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 1120px; }
+  .page-header-shop span {
+    padding-top: 65px; }
 
 .content-area-shop {
   width: 100%;
@@ -1883,8 +1885,13 @@ fieldset {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 1.5rem;
   margin-bottom: 1.5rem;
-  margin-top: 5.5rem;
   max-width: 1120px; }
+
+.archive-product-content {
+  padding-top: 50px; }
+
+.post-type-archive-product {
+  margin-top: 5.5rem; }
 
 .item-grid {
   display: -webkit-box;
@@ -2415,6 +2422,13 @@ iframe {
   letter-spacing: 0;
   width: 235px;
   padding-bottom: 10px; }
+
+.tax-page-title {
+  margin-top: 50px;
+  padding-top: 65px; }
+
+.archive-product-content {
+  margin-top: 0px; }
 
 .entry-title-single a {
   color: #fff;
