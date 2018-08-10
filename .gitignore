@@ -12,10 +12,10 @@ plugins/*
 !plugins/inhabitent-contact-info/
 # Ignore everything in "themes" except the active theme. #
 themes/*
-!themes/inhabitent/
+!themes/igorbitent/
 # Ignore packages #
-themes/inhabitent/node_modules/
-themes/inhabitent/.vscode/
+themes/igorbitent/node_modules/
+themes/igorbitent/.vscode/
 # Ignore OS files #
 .DS_Store
 .DS_Store?
