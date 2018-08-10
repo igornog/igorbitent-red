@@ -8,7 +8,7 @@ The theme Igorbitent was exclusively created to reflect the website model sent b
 
 # Technologies used:
 
-The website is built with HTML, Wordpres/PHP, CSS(and SASS) and Javascript(JQuery).
+The website is built with HTML, Wordpres/PHP, CSS(SASS) and Javascript(JQuery).
 
 # Knowledge adquired during the project:
 
