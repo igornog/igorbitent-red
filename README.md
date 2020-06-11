@@ -6,6 +6,8 @@ Inhabitent is a multi-page website with a blog for a camping supply company call
 
 The theme Igorbitent was exclusively created to reflect the website model sent by RED Academy.
 
+![Screenshot](inhabitent.gif)
+
 # Technologies used:
 
 The website is built with HTML, Wordpres/PHP, CSS(SASS) and Javascript(JQuery).
